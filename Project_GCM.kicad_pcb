@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
-    (drawings 42)
+    (drawings 43)
     (tracks 6223)
     (zones 0)
     (modules 91)
@@ -5493,6 +5493,9 @@
     )
   )
 
+  (gr_text "Licensed under CERN OHL v.1.2" (at 167 141.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 271 32) (end 68 32) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 7 (width 0.15) (layer Eco2.User)
     (gr_text "7.000 mm" (at 181.2 144.5 270) (layer Eco2.User)
