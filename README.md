@@ -1,5 +1,5 @@
 # GCM - GCardMother
-
+Licensed under CERN OHL v.1.2\
 Copyright (C) 2020 Guillaume Guillet
 
 ## Description
