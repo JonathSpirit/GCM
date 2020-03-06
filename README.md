@@ -1,6 +1,25 @@
 # GCM - GCardMother
-Licensed under CERN OHL v.1.2\
-Copyright (C) 2020 Guillaume Guillet
+
+Copyright (C) 2020 Guillaume Guillet\
+Licensed under CERN OHL v.1.2
+
+<table border="0px">
+<tr>
+<td>
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+</td>
+</tr>
+<tr>
+<td>
+You may redistribute and modify this documentation under the terms of the
+CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation is distributed
+WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
+MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
+PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable
+conditions
+</td>
+</tr>
+</table>
 
 ## Description
 G_CardMother is a homemade without any microcontroller motherboard for 8bits processor like "GP8B"
