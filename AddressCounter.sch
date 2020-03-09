@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Project_GCM-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -9,8 +9,8 @@ Title "GCM"
 Date "2019-07-07"
 Rev "V4"
 Comp "Guillaume Guillet"
-Comment1 ""
-Comment2 ""
+Comment1 "Copyright Guillaume Guillet 2020"
+Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 ""
 Comment4 ""
 $EndDescr

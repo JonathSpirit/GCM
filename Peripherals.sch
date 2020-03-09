@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Project_GCM-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -9,8 +9,8 @@ Title "GCM"
 Date "2019-07-07"
 Rev "V4"
 Comp "Guillaume Guillet"
-Comment1 ""
-Comment2 ""
+Comment1 "Copyright Guillaume Guillet 2020"
+Comment2 "Licensed under CERN OHL v.1.2"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1511,6 +1511,7 @@ F 3 "" H 4700 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 7500 4700 7450
+Connection ~ 4700 7450
 Wire Bus Line
 	1600 3800 1600 4400
 Wire Bus Line
@@ -1521,5 +1522,4 @@ Wire Bus Line
 	10250 800  10250 1600
 Wire Bus Line
 	10250 2200 10250 3000
-Connection ~ 4700 7450
 $EndSCHEMATC
