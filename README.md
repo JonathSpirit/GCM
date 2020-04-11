@@ -66,4 +66,6 @@ Compatible with all processor following the [SPS1](https://github.com/JonathSpir
 ## Documents
 [Block diagram file](document/Block%20diagram.pdf)
 
+[Schematics (.pdf)](document/GCM_schematics.pdf)
+
 *WIP*
