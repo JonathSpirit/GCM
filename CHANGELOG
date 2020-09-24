@@ -1,0 +1,15 @@
+GCM V4.0 :
+    - Intial release
+    
+GCM V5.0 :
+- GLOBAL
+    - Switching "CERN-OHL v1.2" license to "CERN-OHLw v2 or later"
+
+- DOCUMENTS
+    - Adding the CHANGELOG file
+    
+- SCHEMATICS
+    - Set version to 5.0
+
+- PCB
+    - Set version to 5.0
