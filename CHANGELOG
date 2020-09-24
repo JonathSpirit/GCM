@@ -4,6 +4,7 @@ GCM V4.0 :
 GCM V5.0 :
 - GLOBAL
     - Switching "CERN-OHL v1.2" license to "CERN-OHLw v2 or later"
+    - Renaming "librairies" folder to "libraries"
 
 - DOCUMENTS
     - Adding the CHANGELOG file
