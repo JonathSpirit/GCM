@@ -13,8 +13,8 @@ Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 4600 1900 0    60   ~ 0
-Main connector
+Text Notes 4250 1950 0    60   ~ 0
+SPS1 Processor connector
 Text Label 8300 1800 0    60   ~ 0
 NUMBER_0
 Text Label 8300 1900 0    60   ~ 0

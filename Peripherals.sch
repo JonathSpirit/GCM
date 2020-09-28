@@ -195,13 +195,13 @@ Text HLabel 1550 5200 0    60   Input ~ 0
 SYNC_BIT
 Text HLabel 1550 5100 0    60   Input ~ 0
 GLOBAL_CLK
-Text Label 2650 6400 0    60   ~ 0
+Text Label 2550 6400 0    60   ~ 0
 CLK_MODULE_1
-Text Label 2650 6500 0    60   ~ 0
+Text Label 2550 6500 0    60   ~ 0
 CLK_MODULE_2
-Text Label 2650 6600 0    60   ~ 0
+Text Label 2550 6600 0    60   ~ 0
 CLK_MODULE_3
-Text Label 2650 6700 0    60   ~ 0
+Text Label 2550 6700 0    60   ~ 0
 CLK_MODULE_4
 $Comp
 L power:+5V #PWR033
@@ -247,11 +247,11 @@ Wire Wire Line
 Connection ~ 2050 6050
 Wire Wire Line
 	2050 6000 2050 6050
-Connection ~ 1350 7000
+Connection ~ 1450 7000
 Wire Wire Line
-	1350 6900 1350 7000
+	1450 6900 1450 7000
 Wire Wire Line
-	1450 6900 1350 6900
+	1550 6900 1450 6900
 Connection ~ 2050 7450
 Wire Wire Line
 	2050 7400 2050 7450
@@ -853,9 +853,9 @@ F 3 "" H 2050 6000 50  0001 C CNN
 	1    2050 6000
 	1    0    0    -1  
 $EndComp
-Text Label 1450 6400 2    60   ~ 0
+Text Label 1550 6400 2    60   ~ 0
 BPCS_0
-Text Label 1450 6500 2    60   ~ 0
+Text Label 1550 6500 2    60   ~ 0
 BPCS_1
 Wire Wire Line
 	1550 5000 1600 5000
@@ -865,15 +865,15 @@ Wire Wire Line
 	1550 5200 1600 5200
 Wire Wire Line
 	1550 5300 1600 5300
-Text Label 1450 6600 2    60   ~ 0
+Text Label 1550 6600 2    60   ~ 0
 BPCS_2
-Text Label 2650 6800 0    60   ~ 0
+Text Label 2550 6800 0    60   ~ 0
 CLK_MODULE_5
-Text Label 2650 6900 0    60   ~ 0
+Text Label 2550 6900 0    60   ~ 0
 CLK_MODULE_6
-Text Label 2650 7000 0    60   ~ 0
+Text Label 2550 7000 0    60   ~ 0
 CLK_MODULE_7
-Text Label 2650 7100 0    60   ~ 0
+Text Label 2550 7100 0    60   ~ 0
 CLK_MODULE_8
 Text HLabel 8800 5450 2    60   Output ~ 0
 CLK_MODULE_5
@@ -1364,7 +1364,7 @@ CLK_MODULE_7
 Wire Wire Line
 	2050 6050 2050 6100
 Wire Wire Line
-	1350 7000 1450 7000
+	1450 7000 1550 7000
 Wire Wire Line
 	2050 7450 2050 7500
 Wire Wire Line
@@ -1434,17 +1434,6 @@ F 3 "~" H 5750 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Custom:CD74AC238 U6
-U 1 1 5D4D885E
-P 2450 6300
-F 0 "U6" H 2200 6500 60  0000 C CNN
-F 1 "CD74AC238" H 2400 6400 60  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 2450 6300 60  0001 C CNN
-F 3 "" H 2450 6300 60  0001 C CNN
-	1    2450 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS138 U7
 U 1 1 5D4DDE08
 P 4700 6700
@@ -1482,19 +1471,8 @@ Text Label 1450 2850 2    60   ~ 0
 BWRITE2_7
 Text Label 1600 5300 0    60   ~ 0
 PERIPHERAL_CLK
-Text Label 1450 7100 2    60   ~ 0
+Text Label 1550 7100 2    60   ~ 0
 PERIPHERAL_CLK
-Wire Wire Line
-	700  7450 700  7000
-Wire Wire Line
-	700  7450 2050 7450
-Wire Wire Line
-	700  6050 1650 6050
-Wire Wire Line
-	700  7000 1350 7000
-Connection ~ 700  7000
-Wire Wire Line
-	700  7000 700  6050
 $Comp
 L power:GND #PWR?
 U 1 1 5D37E694
@@ -1511,6 +1489,28 @@ $EndComp
 Wire Wire Line
 	4700 7500 4700 7450
 Connection ~ 4700 7450
+$Comp
+L Custom:CD74AC238 U6
+U 1 1 5F9BBC7E
+P 2050 6700
+F 0 "U6" H 2150 7250 50  0000 C CNN
+F 1 "CD74AC238" H 2300 7150 50  0000 C CNN
+F 2 "" H 2050 6800 50  0001 C CNN
+F 3 "" H 2050 6800 50  0001 C CNN
+	1    2050 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  7000 750  7450
+Wire Wire Line
+	750  7000 1450 7000
+Wire Wire Line
+	750  7450 2050 7450
+Wire Wire Line
+	750  7000 750  6050
+Connection ~ 750  7000
+Wire Wire Line
+	750  6050 1650 6050
 Wire Bus Line
 	1600 3800 1600 4400
 Wire Bus Line

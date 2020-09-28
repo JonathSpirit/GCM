@@ -13,6 +13,12 @@ GCM V5.0 :
     
 - SCHEMATICS
     - Set version to 5.0
+    - Replacing old custom "LTC6994-1" symbol with the Kicad symbol "LTC6994xS6-1"
+    - Replacing old custom "LM810" symbol with the Kicad symbol "LM810"
+    - Replacing all hidden power pins symbols (hidden pins bug)
+    - Renaming "Main connector" to "SPS1 Processor connector"
+    - Removing old symbols, cleaning
+    - Replacing symbol "CD74AC238" with a new one
 
 - PCB
     - Set version to 5.0
