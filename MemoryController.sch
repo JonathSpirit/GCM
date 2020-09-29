@@ -643,93 +643,57 @@ Wire Wire Line
 	5850 5300 5850 5400
 Wire Wire Line
 	4500 5300 5850 5300
-$Comp
-L 74xGxx:74AUC1G74 U10
-U 1 1 5D5A688A
-P 1550 1250
-F 0 "U10" H 1700 1600 50  0000 C CNN
-F 1 "74LVC1G74" H 1850 1500 50  0000 C CNN
-F 2 "Package_SO:VSSOP-8_2.4x2.1mm_P0.5mm" H 1550 1250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1550 1250 50  0001 C CNN
-	1    1550 1250
-	1    0    0    -1  
-$EndComp
-Text Label 1800 1150 0    60   ~ 0
+Text Label 1900 1450 0    60   ~ 0
 SRC_SELECTION
 $Comp
 L power:+5V #PWR?
 U 1 1 5D5ACDBA
-P 1400 850
+P 1600 1200
 AR Path="/5A97A24B/5D5ACDBA" Ref="#PWR?"  Part="1" 
 AR Path="/5B965978/5D5ACDBA" Ref="#PWR0124"  Part="1" 
 AR Path="/5D5ACDBA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0124" H 1400 700 50  0001 C CNN
-F 1 "+5V" H 1400 990 50  0000 C CNN
-F 2 "" H 1400 850 50  0001 C CNN
-F 3 "" H 1400 850 50  0001 C CNN
-	1    1400 850 
+F 0 "#PWR0124" H 1600 1050 50  0001 C CNN
+F 1 "+5V" H 1600 1340 50  0000 C CNN
+F 2 "" H 1600 1200 50  0001 C CNN
+F 3 "" H 1600 1200 50  0001 C CNN
+	1    1600 1200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 1100 1400 950 
-Wire Wire Line
-	1550 1000 1550 950 
-Wire Wire Line
-	1550 950  1400 950 
-Connection ~ 1400 950 
-Wire Wire Line
-	1400 950  1400 850 
+	1600 1300 1600 1250
 $Comp
 L power:GND #PWR?
 U 1 1 5D5C9F01
-P 1400 1650
+P 1600 1950
 AR Path="/5D5C9F01" Ref="#PWR?"  Part="1" 
 AR Path="/5B965978/5D5C9F01" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 1400 1400 50  0001 C CNN
-F 1 "GND" H 1400 1500 50  0000 C CNN
-F 2 "" H 1400 1650 50  0001 C CNN
-F 3 "" H 1400 1650 50  0001 C CNN
-	1    1400 1650
+F 0 "#PWR0125" H 1600 1700 50  0001 C CNN
+F 1 "GND" H 1600 1800 50  0000 C CNN
+F 2 "" H 1600 1950 50  0001 C CNN
+F 3 "" H 1600 1950 50  0001 C CNN
+	1    1600 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5D5E7959
-P 1100 950
+P 1350 1250
 AR Path="/5A97A24B/5D5E7959" Ref="C?"  Part="1" 
 AR Path="/5B965978/5D5E7959" Ref="C23"  Part="1" 
 AR Path="/5D5E7959" Ref="C?"  Part="1" 
-F 0 "C23" H 1125 1050 50  0000 L CNN
-F 1 "10nF" H 1125 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1138 800 50  0001 C CNN
-F 3 "" H 1100 950 50  0001 C CNN
-	1    1100 950 
+F 0 "C23" H 1375 1350 50  0000 L CNN
+F 1 "10nF" H 1375 1150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1388 1100 50  0001 C CNN
+F 3 "" H 1350 1250 50  0001 C CNN
+	1    1350 1250
 	0    -1   -1   0   
 $EndComp
-Text Label 1300 1150 2    60   ~ 0
+Text Label 1400 1450 2    60   ~ 0
 BWRITE1_0
-Text Label 1300 1350 2    60   ~ 0
+Text Label 1400 1650 2    60   ~ 0
 SRCSET_CLK
-Wire Wire Line
-	1400 1400 1400 1600
-Text Label 1300 1550 2    60   ~ 0
+Text Label 1400 1850 2    60   ~ 0
 ~RESET_CLK
-Wire Wire Line
-	1300 1550 1550 1550
-Wire Wire Line
-	1550 1550 1550 1500
-NoConn ~ 1800 1350
-Wire Wire Line
-	1400 950  1250 950 
-Wire Wire Line
-	950  950  700  950 
-Wire Wire Line
-	700  950  700  1600
-Wire Wire Line
-	700  1600 1400 1600
-Connection ~ 1400 1600
-Wire Wire Line
-	1400 1600 1400 1650
 $Comp
 L Device:C C?
 U 1 1 5D7576E0
@@ -1126,6 +1090,42 @@ Wire Wire Line
 	4050 3150 4050 3050
 Wire Wire Line
 	4050 2650 4050 2550
+$Comp
+L Custom:74LVC1G74 U10
+U 1 1 5F7589E8
+P 1650 1550
+F 0 "U10" H 1800 1900 50  0000 L CNN
+F 1 "74LVC1G74" H 1800 1800 50  0000 L CNN
+F 2 "" H 1650 1550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1650 1550 50  0001 C CNN
+	1    1650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1250 1700 1250
+Wire Wire Line
+	1700 1250 1700 1300
+Connection ~ 1600 1250
+Wire Wire Line
+	1600 1250 1600 1200
+Wire Wire Line
+	1700 1800 1700 1850
+Wire Wire Line
+	1700 1850 1400 1850
+NoConn ~ 1900 1650
+Wire Wire Line
+	1600 1800 1600 1900
+Wire Wire Line
+	1600 1900 800  1900
+Wire Wire Line
+	800  1900 800  1250
+Wire Wire Line
+	800  1250 1200 1250
+Connection ~ 1600 1900
+Wire Wire Line
+	1600 1900 1600 1950
+Wire Wire Line
+	1500 1250 1600 1250
 Wire Bus Line
 	1500 4400 1500 5200
 Wire Bus Line
