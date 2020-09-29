@@ -357,6 +357,98 @@ NoConn ~ 4350 3900
 NoConn ~ 4350 4000
 NoConn ~ 4350 4100
 NoConn ~ 4350 4200
+$Comp
+L Oscillator:CXO_DIP8 X?
+U 1 1 5F7511AB
+P 1450 2300
+F 0 "X?" H 1750 2550 50  0000 L CNN
+F 1 "ECS-2200BX-500" H 1750 2450 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 1900 1950 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 1350 2300 50  0001 C CNN
+	1    1450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7518C8
+P 1450 1900
+AR Path="/5F7518C8" Ref="#PWR?"  Part="1" 
+AR Path="/5B3313A4/5F7518C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1450 1750 50  0001 C CNN
+F 1 "+5V" H 1450 2040 50  0000 C CNN
+F 2 "" H 1450 1900 50  0001 C CNN
+F 3 "" H 1450 1900 50  0001 C CNN
+	1    1450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F751B8A
+P 1450 2750
+AR Path="/5F751B8A" Ref="#PWR?"  Part="1" 
+AR Path="/5B3313A4/5F751B8A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1450 2500 50  0001 C CNN
+F 1 "GND" H 1450 2600 50  0000 C CNN
+F 2 "" H 1450 2750 50  0001 C CNN
+F 3 "" H 1450 2750 50  0001 C CNN
+	1    1450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F751FC7
+P 1000 2500
+AR Path="/5F751FC7" Ref="C?"  Part="1" 
+AR Path="/5B3313A4/5F751FC7" Ref="C?"  Part="1" 
+F 0 "C?" H 1025 2600 50  0000 L CNN
+F 1 "10nF" H 1025 2400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1038 2350 50  0001 C CNN
+F 3 "" H 1000 2500 50  0001 C CNN
+	1    1000 2500
+	1    0    0    -1  
+$EndComp
+Text Label 1850 2300 0    60   ~ 0
+CLOCK_50MHZ
+Wire Wire Line
+	1450 1900 1450 1950
+Wire Wire Line
+	1450 2600 1450 2700
+$Comp
+L Device:R R?
+U 1 1 5F754723
+P 1850 2550
+F 0 "R?" H 1920 2596 50  0000 L CNN
+F 1 "10k" H 1920 2505 50  0000 L CNN
+F 2 "" V 1780 2550 50  0001 C CNN
+F 3 "~" H 1850 2550 50  0001 C CNN
+	1    1850 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2700 1450 2700
+Wire Wire Line
+	1450 2700 1450 2750
+Connection ~ 1450 2700
+Wire Wire Line
+	1850 2400 1850 2300
+Wire Wire Line
+	1850 2300 1750 2300
+Connection ~ 1450 1950
+Wire Wire Line
+	1450 1950 1450 2000
+Wire Wire Line
+	1000 1950 1000 2300
+Wire Wire Line
+	1000 1950 1450 1950
+Wire Wire Line
+	1150 2300 1000 2300
+Connection ~ 1000 2300
+Wire Wire Line
+	1000 2300 1000 2350
+Wire Wire Line
+	1000 2650 1000 2700
+Wire Wire Line
+	1000 2700 1450 2700
 Wire Bus Line
 	1900 6350 1900 7150
 $EndSCHEMATC
