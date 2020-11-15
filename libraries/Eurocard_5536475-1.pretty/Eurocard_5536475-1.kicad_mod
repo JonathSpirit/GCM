@@ -1,4 +1,4 @@
-(module Eurocard_5536475-1 (layer F.Cu) (tedit 5B200FB2)
+(module Eurocard_5536475-1 (layer F.Cu) (tedit 5E21EF33)
   (fp_text reference REF** (at 45.98 0.82) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -110,4 +110,9 @@
   (pad c32 thru_hole circle (at 40.64 2.54 90) (size 1.75 1.75) (drill 1.15) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 45.72 -5.08 90) (size 3.5 3.5) (drill 2.94) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -43.18 -5.08 90) (size 3.5 3.5) (drill 2.94) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/libraries/3D/5650473-5.stp
+    (offset (xyz 1.25 15.25 4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )

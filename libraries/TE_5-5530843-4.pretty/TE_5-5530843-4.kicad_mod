@@ -1,10 +1,10 @@
-(module SamacSys_Parts:SHDR40W89P485X254_2X20_5740X935X1562P (layer F.Cu) (tedit 5C7707D6)
-  (descr 5-5530843-4)
+(module TE_5-5530843-4 (layer F.Cu) (tedit 5F6DFD42)
+  (descr TE_5-5530843-4)
   (tags Connector)
-  (fp_text reference J** (at 0 0) (layer F.SilkS)
+  (fp_text reference J** (at 0 3.81) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text value SHDR40W89P485X254_2X20_5740X935X1562P (at 0 0) (layer F.SilkS) hide
+  (fp_text value SHDR40W89P485X254_2X20_5740X935X1562P (at 0 5.08) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start -4.949 2.625) (end -4.949 -7.349) (layer Dwgs.User) (width 0.05))
@@ -59,4 +59,9 @@
   (pad 38 thru_hole circle (at 45.72 -4.851 90) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad 39 thru_hole circle (at 48.26 0 90) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
   (pad 40 thru_hole circle (at 48.26 -4.851 90) (size 1.65 1.65) (drill 1.1) (layers *.Cu *.Mask F.SilkS))
+  (model ${KIPRJMOD}/libraries/3D/TE_5-5530843-4.stp
+    (offset (xyz 24.15 2.5 15.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

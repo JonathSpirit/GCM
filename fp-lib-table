@@ -1,8 +1,5 @@
 (fp_lib_table
-  (lib (name hole_3mm)(type KiCad)(uri "$(KIPRJMOD)/libraries/hole_3mm.pretty")(options "")(descr ""))
-  (lib (name sot753)(type KiCad)(uri "$(KIPRJMOD)/libraries/sot753.pretty")(options "")(descr ""))
   (lib (name TE5530843-2)(type KiCad)(uri "$(KIPRJMOD)/libraries/TE5530843-2.pretty")(options "")(descr ""))
   (lib (name Eurocard_5536475-1)(type KiCad)(uri "$(KIPRJMOD)/libraries/Eurocard_5536475-1.pretty")(options "")(descr ""))
-  (lib (name Eurocard)(type KiCad)(uri ${KIPRJMOD}/libraries/Eurocard.pretty)(options "")(descr ""))
-  (lib (name SOP65P490X110-8N)(type KiCad)(uri ${KIPRJMOD}/libraries/SOP65P490X110-8N.pretty)(options "")(descr ""))
+  (lib (name TE_5-5530843-4)(type KiCad)(uri ${KIPRJMOD}/libraries/TE_5-5530843-4.pretty)(options "")(descr ""))
 )

@@ -10,15 +10,60 @@ GCM V5.0 :
     - Adding the CHANGELOG file
     - Adding waveforms
     - Cleaning
-    
+
 - SCHEMATICS
     - Set version to 5.0
+    - Replacing old custom "74CBTLV16212" symbol with the Kicad symbol "74CBTLV16212"
     - Replacing old custom "LTC6994-1" symbol with the Kicad symbol "LTC6994xS6-1"
     - Replacing old custom "LM810" symbol with the Kicad symbol "LM810"
     - Replacing all hidden power pins symbols (hidden pins bug)
     - Renaming "Main connector" to "SPS1 Processor connector"
     - Removing old symbols, cleaning
     - Replacing symbol "CD74AC238" with a new one
+    - Replacing all used 74x1Gxx symbols
+        (shared power pin fix, and visual)
 
 - PCB
+    - Removing/Cleaning old footprints
     - Set version to 5.0
+    - Fixing 3D
+
+- SCHEMATICS FEATURES
+    - Complete change of the clock generation
+        Adding the "ECS-2200BX-500" crystal oscillator
+            You will now be able to select : 50MHz 
+            or pre-division : /2, /4, /8, /16, /32, /64, /128, /256, /512, /1024, /2048, /4096, /8192, /16384, /32768, /65536
+        Removing "~GLOBAL_CLK"
+        More simple frequency control (switch to parallel control)
+        Removing "LTC6903" (SPI frequency chip)
+        Fixing unstable frequency change
+        After a frequency change, the system now send a "SOURCE_RESET" pulse
+        - Replacing "SN74LV163A" with "CD74AC161"
+            Async reset
+        - Put a Tpd delay to "ADDSRC_CLK"
+        - "ADDSRC_CLK" is now directly connected to the CLK input of the 24bits counter
+
+    - Renaming "ClockGenerator.sch" sheet to "fileClockGenerator.sch"
+    - Renaming "Connector.sch" sheet to "fileConnector.sch"
+    - Renaming "Peripherals.sch" sheet to "filePeripherals.sch"
+    - Renaming "MemoryController.sch" sheet to "fileMemoryController.sch"
+    - Renaming "MemorySlot1.sch.sch" sheet to "fileMemorySlot1.sch"
+    - Renaming "MemorySlot2.sch" sheet to "fileMemorySlot2.sch"
+    - Renaming "AddressCounter.sch" sheet to "fileAddressCounter.sch"
+    - Renaming "AddressExchanger.sch" sheet to "fileAddressExchanger.sch"
+    
+    - Adding a seperate clock signal only for peripheral (PClockGenerator)
+    
+    - Applying PP1 standard for peripheral https://github.com/JonathSpirit/GComputer_standard
+    - Applying MM1 standard for memory https://github.com/JonathSpirit/GComputer_standard
+    
+    - Mounting holes is now on schematics
+    
+    - Renaming "MAIN_RESET" to "POWER_RESET"
+    - Renaming "SOURCE_RESET" to "LIGHT_RESET"
+    - Renaming "RESET_CLK" to "GLOBAL_RESET"
+    
+    - MemoryController rework
+        User can now control CE,WE,OE pins of the not selected memory source
+        Applying MM1 standard, (3.3V)
+        Renaming/Cleaning

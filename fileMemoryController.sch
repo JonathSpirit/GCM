@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 8 10
 Title "GCM"
 Date "2019-07-07"
 Rev "V5.0"
@@ -93,159 +93,109 @@ Text Label 1500 7600 0    60   ~ 0
 MEM2DATA_[0..7]
 Text Label 1500 6450 0    60   ~ 0
 MEM1DATA_[0..7]
-Text HLabel 1450 3550 0    60   Input ~ 0
-~RESET_CLK
-$Comp
-L Custom:74CBTLV16212 U?
-U 1 1 5DBCDCEB
-P 8450 2400
-AR Path="/5DBCDCEB" Ref="U?"  Part="1" 
-AR Path="/5B965978/5DBCDCEB" Ref="U22"  Part="1" 
-F 0 "U22" H 8600 3900 50  0000 C CNN
-F 1 "74CBTLV16212" H 8800 3800 50  0000 C CNN
-F 2 "Package_SO:TSSOP-56_6.1x14mm_P0.5mm" H 8450 3150 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtlv16212.pdf" H 8450 3150 50  0001 C CNN
-	1    8450 2400
-	1    0    0    -1  
-$EndComp
-Text Label 7950 1150 2    60   ~ 0
+Text Label 7850 1100 2    60   ~ 0
 SRC_SELECTION
 $Comp
 L power:+3.3V #PWR0111
 U 1 1 5DC5DA89
-P 8450 750
-F 0 "#PWR0111" H 8450 600 50  0001 C CNN
-F 1 "+3.3V" H 8465 923 50  0000 C CNN
-F 2 "" H 8450 750 50  0001 C CNN
-F 3 "" H 8450 750 50  0001 C CNN
-	1    8450 750 
+P 8350 700
+F 0 "#PWR0111" H 8350 550 50  0001 C CNN
+F 1 "+3.3V" H 8365 873 50  0000 C CNN
+F 2 "" H 8350 700 50  0001 C CNN
+F 3 "" H 8350 700 50  0001 C CNN
+	1    8350 700 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 850  8450 800 
+	8350 750  7150 750 
 Wire Wire Line
-	8450 800  7250 800 
+	7150 750  7150 1200
 Wire Wire Line
-	7250 800  7250 1250
+	7150 1300 7850 1300
 Wire Wire Line
-	7250 1350 7950 1350
-Connection ~ 8450 800 
+	7850 1200 7150 1200
+Connection ~ 7150 1200
 Wire Wire Line
-	8450 800  8450 750 
-Wire Wire Line
-	7950 1250 7250 1250
-Connection ~ 7250 1250
-Wire Wire Line
-	7250 1250 7250 1350
+	7150 1200 7150 1300
 $Comp
 L power:GND #PWR?
 U 1 1 5DC77281
-P 8450 4250
+P 8350 4300
 AR Path="/5DC77281" Ref="#PWR?"  Part="1" 
 AR Path="/5B965978/5DC77281" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 8450 4000 50  0001 C CNN
-F 1 "GND" H 8450 4100 50  0000 C CNN
-F 2 "" H 8450 4250 50  0001 C CNN
-F 3 "" H 8450 4250 50  0001 C CNN
-	1    8450 4250
+F 0 "#PWR0112" H 8350 4050 50  0001 C CNN
+F 1 "GND" H 8350 4150 50  0000 C CNN
+F 2 "" H 8350 4300 50  0001 C CNN
+F 3 "" H 8350 4300 50  0001 C CNN
+	1    8350 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 4250 8450 4150
-Text Label 8950 1500 0    60   ~ 0
+	8350 4300 8350 4200
+Text Label 8850 1500 0    60   ~ 0
 MEM1DATA_0
-Text Label 8950 1600 0    60   ~ 0
+Text Label 8850 1600 0    60   ~ 0
 MEM1DATA_1
-Text Label 8950 1700 0    60   ~ 0
+Text Label 8850 1700 0    60   ~ 0
 MEM1DATA_2
-Text Label 8950 1800 0    60   ~ 0
+Text Label 8850 1800 0    60   ~ 0
 MEM1DATA_3
-Text Label 8950 1900 0    60   ~ 0
+Text Label 8850 1900 0    60   ~ 0
 MEM1DATA_4
-Text Label 8950 2000 0    60   ~ 0
+Text Label 8850 2000 0    60   ~ 0
 MEM1DATA_5
-Text Label 8950 2100 0    60   ~ 0
+Text Label 8850 2100 0    60   ~ 0
 MEM1DATA_6
-Text Label 8950 2200 0    60   ~ 0
+Text Label 8850 2200 0    60   ~ 0
 MEM1DATA_7
-Text Label 8950 2750 0    60   ~ 0
+Text Label 8850 2800 0    60   ~ 0
 MEM2DATA_0
-Text Label 8950 2850 0    60   ~ 0
+Text Label 8850 2900 0    60   ~ 0
 MEM2DATA_1
-Text Label 8950 2950 0    60   ~ 0
+Text Label 8850 3000 0    60   ~ 0
 MEM2DATA_2
-Text Label 8950 3050 0    60   ~ 0
+Text Label 8850 3100 0    60   ~ 0
 MEM2DATA_3
-Text Label 8950 3150 0    60   ~ 0
+Text Label 8850 3200 0    60   ~ 0
 MEM2DATA_4
-Text Label 8950 3250 0    60   ~ 0
+Text Label 8850 3300 0    60   ~ 0
 MEM2DATA_5
-Text Label 8950 3350 0    60   ~ 0
+Text Label 8850 3400 0    60   ~ 0
 MEM2DATA_6
-Text Label 8950 3450 0    60   ~ 0
+Text Label 8850 3500 0    60   ~ 0
 MEM2DATA_7
-Text Label 7950 1500 2    60   ~ 0
+Text Label 7850 1500 2    60   ~ 0
 BDATASRC_0
-Text Label 7950 1600 2    60   ~ 0
+Text Label 7850 1600 2    60   ~ 0
 BDATASRC_1
-Text Label 7950 1700 2    60   ~ 0
+Text Label 7850 1700 2    60   ~ 0
 BDATASRC_2
-Text Label 7950 1800 2    60   ~ 0
+Text Label 7850 1800 2    60   ~ 0
 BDATASRC_3
-Text Label 7950 1900 2    60   ~ 0
+Text Label 7850 1900 2    60   ~ 0
 BDATASRC_4
-Text Label 7950 2000 2    60   ~ 0
+Text Label 7850 2000 2    60   ~ 0
 BDATASRC_5
-Text Label 7950 2100 2    60   ~ 0
+Text Label 7850 2100 2    60   ~ 0
 BDATASRC_6
-Text Label 7950 2200 2    60   ~ 0
+Text Label 7850 2200 2    60   ~ 0
 BDATASRC_7
-Text Label 8950 2300 0    60   ~ 0
+Text Label 8850 2300 0    60   ~ 0
 MEM1_~CE
-Text Label 8950 2400 0    60   ~ 0
+Text Label 8850 2400 0    60   ~ 0
 MEM1_~WE
-Text Label 8950 2500 0    60   ~ 0
+Text Label 8850 2500 0    60   ~ 0
 MEM1_~OE
-Text Label 8950 3550 0    60   ~ 0
+Text Label 8850 3600 0    60   ~ 0
 MEM2_~CE
-Text Label 8950 3650 0    60   ~ 0
+Text Label 8850 3700 0    60   ~ 0
 MEM2_~WE
-Text Label 8950 3750 0    60   ~ 0
+Text Label 8850 3800 0    60   ~ 0
 MEM2_~OE
 Wire Wire Line
-	7950 2300 7250 2300
-$Comp
-L power:+5V #PWR?
-U 1 1 5D3225D8
-P 7300 2200
-AR Path="/5B31C462/5D3225D8" Ref="#PWR?"  Part="1" 
-AR Path="/5B965978/5D3225D8" Ref="#PWR0113"  Part="1" 
-AR Path="/5D3225D8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0113" H 7300 2050 50  0001 C CNN
-F 1 "+5V" H 7300 2340 50  0000 C CNN
-F 2 "" H 7300 2200 50  0001 C CNN
-F 3 "" H 7300 2200 50  0001 C CNN
-	1    7300 2200
-	1    0    0    -1  
-$EndComp
+	7850 2300 7150 2300
 Wire Wire Line
-	7950 2400 7300 2400
-Wire Wire Line
-	7950 2500 7250 2500
-$Comp
-L power:+5V #PWR?
-U 1 1 5D3531E7
-P 3800 4200
-AR Path="/5D3531E7" Ref="#PWR?"  Part="1" 
-AR Path="/5BF276EA/5C3C5768/5D3531E7" Ref="#PWR?"  Part="1" 
-AR Path="/5B965978/5D3531E7" Ref="#PWR0114"  Part="1" 
-F 0 "#PWR0114" H 3800 4050 50  0001 C CNN
-F 1 "+5V" H 3800 4340 50  0000 C CNN
-F 2 "" H 3800 4200 50  0001 C CNN
-F 3 "" H 3800 4200 50  0001 C CNN
-	1    3800 4200
-	1    0    0    -1  
-$EndComp
+	7850 2400 7200 2400
 $Comp
 L power:GND #PWR?
 U 1 1 5D3531ED
@@ -302,26 +252,8 @@ Wire Wire Line
 Wire Wire Line
 	3800 4250 3800 4300
 Connection ~ 3800 4250
-$Comp
-L 74xx:74AHC244 U?
-U 1 1 5D37FB44
-P 5400 6600
-AR Path="/5B31C462/5D37FB44" Ref="U?"  Part="1" 
-AR Path="/5B965978/5D37FB44" Ref="U21"  Part="1" 
-F 0 "U21" H 5550 7350 50  0000 C CNN
-F 1 "74AHC244" H 5650 7250 50  0000 C CNN
-F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 5400 6600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf" H 5400 6600 50  0001 C CNN
-	1    5400 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 7450 5400 7500
 Wire Wire Line
 	5400 5750 5400 5800
-Connection ~ 5400 7450
-Wire Wire Line
-	5400 7400 5400 7450
 Connection ~ 5400 5750
 Wire Wire Line
 	5400 5700 5400 5750
@@ -502,12 +434,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 7050 4900 7100
 Connection ~ 4900 7050
-Text Label 7950 3750 2    60   ~ 0
-~CS~_READ_MODE
-Text Label 4850 7050 2    60   ~ 0
-~CS~_READ_MODE
-Text Label 3250 5550 2    60   ~ 0
-~CS~_WRITE_MODE
 Wire Wire Line
 	3250 5550 3300 5550
 Wire Wire Line
@@ -522,67 +448,22 @@ Wire Wire Line
 Wire Wire Line
 	2500 4250 3300 4250
 Wire Wire Line
-	4150 5750 4150 7450
-Wire Wire Line
 	4150 5750 5000 5750
-Wire Wire Line
-	4150 7450 5400 7450
 $Comp
 L power:GND #PWR?
 U 1 1 5D2E27FE
-P 7250 4250
+P 7150 4300
 AR Path="/5D2E27FE" Ref="#PWR?"  Part="1" 
 AR Path="/5B965978/5D2E27FE" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 7250 4000 50  0001 C CNN
-F 1 "GND" H 7250 4100 50  0000 C CNN
-F 2 "" H 7250 4250 50  0001 C CNN
-F 3 "" H 7250 4250 50  0001 C CNN
-	1    7250 4250
+F 0 "#PWR0120" H 7150 4050 50  0001 C CNN
+F 1 "GND" H 7150 4150 50  0000 C CNN
+F 2 "" H 7150 4300 50  0001 C CNN
+F 3 "" H 7150 4300 50  0001 C CNN
+	1    7150 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 3550 7250 3550
-Wire Wire Line
-	7250 3550 7250 2600
-Connection ~ 7250 2500
-Wire Wire Line
-	7250 2500 7250 2300
-$Comp
-L power:+5V #PWR?
-U 1 1 5D3758ED
-P 4050 2550
-AR Path="/5D3758ED" Ref="#PWR?"  Part="1" 
-AR Path="/5BF276EA/5C3C5768/5D3758ED" Ref="#PWR?"  Part="1" 
-AR Path="/5B965978/5D3758ED" Ref="#PWR0121"  Part="1" 
-F 0 "#PWR0121" H 4050 2400 50  0001 C CNN
-F 1 "+5V" H 4050 2690 50  0000 C CNN
-F 2 "" H 4050 2550 50  0001 C CNN
-F 3 "" H 4050 2550 50  0001 C CNN
-	1    4050 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D3758F3
-P 4050 3150
-AR Path="/5D3758F3" Ref="#PWR?"  Part="1" 
-AR Path="/5BF276EA/5C3C5768/5D3758F3" Ref="#PWR?"  Part="1" 
-AR Path="/5B965978/5D3758F3" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 4050 2900 50  0001 C CNN
-F 1 "GND" H 4050 3000 50  0000 C CNN
-F 2 "" H 4050 3150 50  0001 C CNN
-F 3 "" H 4050 3150 50  0001 C CNN
-	1    4050 3150
-	1    0    0    -1  
-$EndComp
-Text Label 3750 2850 2    60   ~ 0
-MEMWRITE_CLK
-Text Label 4350 2850 0    60   ~ 0
-~MEMWRITE_CLK
-Text Label 7950 3650 2    60   ~ 0
-~MEMWRITE_CLK
-Wire Wire Line
-	7300 2400 7300 2200
+	7200 2400 7200 2200
 $Comp
 L Device:R_Network08 RN?
 U 1 1 5D445564
@@ -611,8 +492,6 @@ F 3 "" H 6550 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6550 5900 6550 5800
-Wire Wire Line
-	6550 5400 6550 4600
 Wire Wire Line
 	4850 4600 6550 4600
 Wire Wire Line
@@ -643,154 +522,101 @@ Wire Wire Line
 	5850 5300 5850 5400
 Wire Wire Line
 	4500 5300 5850 5300
-Text Label 1900 1450 0    60   ~ 0
+Text Label 2050 1050 0    60   ~ 0
 SRC_SELECTION
-$Comp
-L power:+5V #PWR?
-U 1 1 5D5ACDBA
-P 1600 1200
-AR Path="/5A97A24B/5D5ACDBA" Ref="#PWR?"  Part="1" 
-AR Path="/5B965978/5D5ACDBA" Ref="#PWR0124"  Part="1" 
-AR Path="/5D5ACDBA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0124" H 1600 1050 50  0001 C CNN
-F 1 "+5V" H 1600 1340 50  0000 C CNN
-F 2 "" H 1600 1200 50  0001 C CNN
-F 3 "" H 1600 1200 50  0001 C CNN
-	1    1600 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1600 1300 1600 1250
+	1750 900  1750 850 
 $Comp
 L power:GND #PWR?
 U 1 1 5D5C9F01
-P 1600 1950
+P 1750 1550
 AR Path="/5D5C9F01" Ref="#PWR?"  Part="1" 
 AR Path="/5B965978/5D5C9F01" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 1600 1700 50  0001 C CNN
-F 1 "GND" H 1600 1800 50  0000 C CNN
-F 2 "" H 1600 1950 50  0001 C CNN
-F 3 "" H 1600 1950 50  0001 C CNN
-	1    1600 1950
+F 0 "#PWR0125" H 1750 1300 50  0001 C CNN
+F 1 "GND" H 1750 1400 50  0000 C CNN
+F 2 "" H 1750 1550 50  0001 C CNN
+F 3 "" H 1750 1550 50  0001 C CNN
+	1    1750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5D5E7959
-P 1350 1250
+P 1500 850
 AR Path="/5A97A24B/5D5E7959" Ref="C?"  Part="1" 
 AR Path="/5B965978/5D5E7959" Ref="C23"  Part="1" 
 AR Path="/5D5E7959" Ref="C?"  Part="1" 
-F 0 "C23" H 1375 1350 50  0000 L CNN
-F 1 "10nF" H 1375 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1388 1100 50  0001 C CNN
-F 3 "" H 1350 1250 50  0001 C CNN
-	1    1350 1250
+F 0 "C23" H 1525 950 50  0000 L CNN
+F 1 "10nF" H 1525 750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1538 700 50  0001 C CNN
+F 3 "" H 1500 850 50  0001 C CNN
+	1    1500 850 
 	0    -1   -1   0   
 $EndComp
-Text Label 1400 1450 2    60   ~ 0
+Text Label 1550 1050 2    60   ~ 0
 BWRITE1_0
-Text Label 1400 1650 2    60   ~ 0
-SRCSET_CLK
-Text Label 1400 1850 2    60   ~ 0
-~RESET_CLK
+Text Label 1550 1250 2    60   ~ 0
+CLK_MODULE_SRCSET
 $Comp
 L Device:C C?
 U 1 1 5D7576E0
-P 7000 1050
+P 6900 1000
 AR Path="/5A97A24B/5D7576E0" Ref="C?"  Part="1" 
 AR Path="/5B965978/5D7576E0" Ref="C30"  Part="1" 
 AR Path="/5D7576E0" Ref="C?"  Part="1" 
-F 0 "C30" H 7025 1150 50  0000 L CNN
-F 1 "10nF" H 7025 950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 900 50  0001 C CNN
-F 3 "" H 7000 1050 50  0001 C CNN
-	1    7000 1050
+F 0 "C30" H 6925 1100 50  0000 L CNN
+F 1 "10nF" H 6925 900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 850 50  0001 C CNN
+F 3 "" H 6900 1000 50  0001 C CNN
+	1    6900 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5D7576E6
-P 7000 1300
+P 6900 1250
 AR Path="/5D7576E6" Ref="#PWR?"  Part="1" 
 AR Path="/5B965978/5D7576E6" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 7000 1050 50  0001 C CNN
-F 1 "GND" H 7000 1150 50  0000 C CNN
-F 2 "" H 7000 1300 50  0001 C CNN
-F 3 "" H 7000 1300 50  0001 C CNN
-	1    7000 1300
+F 0 "#PWR0126" H 6900 1000 50  0001 C CNN
+F 1 "GND" H 6900 1100 50  0000 C CNN
+F 2 "" H 6900 1250 50  0001 C CNN
+F 3 "" H 6900 1250 50  0001 C CNN
+	1    6900 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7000 1300 7000 1200
+	6900 1250 6900 1150
 Wire Wire Line
-	7000 900  7000 800 
+	6900 850  6900 750 
 Wire Wire Line
-	7000 800  7250 800 
-Connection ~ 7250 800 
-Wire Wire Line
-	7250 3550 7250 3850
-Connection ~ 7250 3550
-Text Label 6600 4600 0    60   ~ 0
-USER_RW_0
-Text Label 6600 4700 0    60   ~ 0
-USER_RW_1
-Text Label 6600 4800 0    60   ~ 0
-USER_RW_2
-Text Label 6600 4900 0    60   ~ 0
-USER_RW_3
-Text Label 6600 5000 0    60   ~ 0
-USER_RW_4
-Text Label 6600 5100 0    60   ~ 0
-USER_RW_5
-Text Label 6600 5200 0    60   ~ 0
-USER_RW_6
-Text Label 6600 5300 0    60   ~ 0
-USER_RW_7
+	6900 750  7150 750 
+Connection ~ 7150 750 
 Wire Wire Line
 	6550 4600 6600 4600
 Connection ~ 6550 4600
-Wire Wire Line
-	6600 4700 6450 4700
 Connection ~ 6450 4700
-Wire Wire Line
-	6350 4800 6600 4800
 Connection ~ 6350 4800
-Wire Wire Line
-	6600 4900 6250 4900
 Connection ~ 6250 4900
-Wire Wire Line
-	6150 5000 6600 5000
 Connection ~ 6150 5000
-Wire Wire Line
-	6600 5100 6050 5100
 Connection ~ 6050 5100
-Wire Wire Line
-	5950 5200 6600 5200
 Connection ~ 5950 5200
-Wire Wire Line
-	6600 5300 5850 5300
 Connection ~ 5850 5300
-Text Label 7950 2750 2    60   ~ 0
+Text Label 7850 2800 2    60   ~ 0
 USER_RW_0
-Text Label 7950 2850 2    60   ~ 0
+Text Label 7850 2900 2    60   ~ 0
 USER_RW_1
-Text Label 7950 2950 2    60   ~ 0
+Text Label 7850 3000 2    60   ~ 0
 USER_RW_2
-Text Label 7950 3050 2    60   ~ 0
+Text Label 7850 3100 2    60   ~ 0
 USER_RW_3
-Text Label 7950 3150 2    60   ~ 0
+Text Label 7850 3200 2    60   ~ 0
 USER_RW_4
-Text Label 7950 3250 2    60   ~ 0
+Text Label 7850 3300 2    60   ~ 0
 USER_RW_5
-Text Label 7950 3350 2    60   ~ 0
+Text Label 7850 3400 2    60   ~ 0
 USER_RW_6
-Text Label 7950 3450 2    60   ~ 0
+Text Label 7850 3500 2    60   ~ 0
 USER_RW_7
-Text Label 1500 3300 0    60   ~ 0
-~CS~_WRITE_MODE
-Text Label 1500 3400 0    60   ~ 0
-~CS~_READ_MODE
 Text Label 10150 3950 0    60   ~ 0
 BDATASRC_0
 Text Label 10150 4050 0    60   ~ 0
@@ -889,12 +715,8 @@ Text Label 1650 7300 0    60   ~ 0
 MEM2DATA_6
 Text Label 1650 7400 0    60   ~ 0
 MEM2DATA_7
-Text Label 1500 3000 0    60   ~ 0
-MEMWRITE_CLK
-Text Label 1500 3550 0    60   ~ 0
-~RESET_CLK
-Text Label 1500 3100 0    60   ~ 0
-SRCSET_CLK
+Text Label 1650 3400 0    60   ~ 0
+CLK_MODULE_SRCSET
 Text Label 10250 1200 2    60   ~ 0
 MEM1_~CE
 Text Label 10250 1300 2    60   ~ 0
@@ -908,15 +730,19 @@ MEM2_~WE
 Text Label 10250 1750 2    60   ~ 0
 MEM2_~OE
 $Sheet
-S 3550 1100 1950 500 
+S 3800 650  1950 900 
 U 5DA7D21D
 F0 "AddressExchanger" 60
-F1 "AddressExchanger.sch" 60
-F2 "BJMPSRC_[0..23]" I L 3550 1200 60 
-F3 "SRCADD_[0..23]" I L 3550 1300 60 
-F4 "SRC_SELECTION" I L 3550 1450 60 
-F5 "MEM1ADD_[0..23]" O R 5500 1200 60 
-F6 "MEM2ADD_[0..23]" O R 5500 1300 60 
+F1 "fileAddressExchanger.sch" 60
+F2 "SRCADD_[0..23]" I L 3800 850 60 
+F3 "SRC_SELECTION" I L 3800 1000 60 
+F4 "MEM1ADDRESS_[0..23]" O R 5750 750 60 
+F5 "MEM2ADDRESS_[0..23]" O R 5750 850 60 
+F6 "BWRITE2_[0..7]" I L 3800 750 60 
+F7 "USER_ADDRESS_CLK_0" I L 3800 1150 60 
+F8 "USER_ADDRESS_CLK_1" I L 3800 1250 60 
+F9 "USER_ADDRESS_CLK_2" I L 3800 1350 60 
+F10 "~RESET" I L 3800 1500 60 
 $EndSheet
 $Comp
 L 74xx:74AHC244 U?
@@ -931,50 +757,40 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf" H 3800 
 	1    3800 5100
 	1    0    0    -1  
 $EndComp
-Text HLabel 1450 2850 0    60   Input ~ 0
-BJMPSRC_[0..23]
-Text HLabel 1450 2750 0    60   Input ~ 0
+Text HLabel 1600 3200 0    60   Input ~ 0
+BWRITE2_[0..7]
+Text HLabel 1600 3100 0    60   Input ~ 0
 SRCADD_[0..23]
-Text Label 1500 2750 0    60   ~ 0
+Text Label 1650 3100 0    60   ~ 0
 SRCADD_[0..23]
-Text Label 1500 2850 0    60   ~ 0
-BJMPSRC_[0..23]
+Text Label 1650 3200 0    60   ~ 0
+BWRITE2_[0..7]
 Wire Bus Line
-	1450 2750 1500 2750
+	1600 3100 1650 3100
 Wire Bus Line
-	1500 2850 1450 2850
-Text Label 3500 1300 2    60   ~ 0
+	1650 3200 1600 3200
+Text Label 3750 850  2    60   ~ 0
 SRCADD_[0..23]
-Text Label 3500 1200 2    60   ~ 0
-BJMPSRC_[0..23]
 Wire Bus Line
-	3500 1200 3550 1200
+	3750 750  3800 750 
 Wire Bus Line
-	3500 1300 3550 1300
-Text Label 3500 1450 2    60   ~ 0
+	3750 850  3800 850 
+Text Label 3750 1000 2    60   ~ 0
 SRC_SELECTION
 Wire Wire Line
-	3500 1450 3550 1450
-Text Label 5550 1200 0    60   ~ 0
-MEM1ADD_[0..23]
-Text Label 5550 1300 0    60   ~ 0
-MEM2ADD_[0..23]
+	3750 1000 3800 1000
 Wire Bus Line
-	5550 1200 5500 1200
+	5800 750  5750 750 
 Wire Bus Line
-	5550 1300 5500 1300
-Text Label 10250 850  2    60   ~ 0
-MEM1ADD_[0..23]
-Text Label 10250 950  2    60   ~ 0
-MEM2ADD_[0..23]
-Text HLabel 10300 950  2    60   Output ~ 0
-MEM2ADD_[0..23]
-Text HLabel 10300 850  2    60   Output ~ 0
-MEM1ADD_[0..23]
+	5800 850  5750 850 
+Text HLabel 10100 800  2    60   Output ~ 0
+MEM2ADDRESS_[0..23]
+Text HLabel 10100 700  2    60   Output ~ 0
+MEM1ADDRESS_[0..23]
 Wire Bus Line
-	10250 850  10300 850 
+	10050 700  10100 700 
 Wire Bus Line
-	10250 950  10300 950 
+	10050 800  10100 800 
 Text HLabel 10300 1300 2    60   Output ~ 0
 MEM1_~WE
 Text HLabel 10300 1200 2    60   Output ~ 0
@@ -1041,91 +857,437 @@ Text HLabel 10100 6350 2    60   Output ~ 0
 SRC_SWITCH_SIGNAL
 Wire Wire Line
 	10050 6350 10100 6350
-Text HLabel 1450 3400 0    60   Input ~ 0
-~CS~_READ_MODE
-Text HLabel 1450 3300 0    60   Input ~ 0
-~CS~_WRITE_MODE
-Text HLabel 1450 3100 0    60   Input ~ 0
-SRCSET_CLK
-Text HLabel 1450 3000 0    60   Input ~ 0
-MEMWRITE_CLK
+Text HLabel 1600 3400 0    60   Input ~ 0
+CLK_MODULE_SRCSET
 Wire Wire Line
-	1450 3000 1500 3000
+	1600 3400 1650 3400
 Wire Wire Line
-	1450 3100 1500 3100
-Wire Wire Line
-	1450 3300 1500 3300
-Wire Wire Line
-	1450 3400 1500 3400
-Wire Wire Line
-	1450 3550 1500 3550
-Wire Wire Line
-	7950 3850 7250 3850
-Connection ~ 7250 3850
-Wire Wire Line
-	7250 3850 7250 4250
-Wire Wire Line
-	7950 2600 7250 2600
-Connection ~ 7250 2600
-Wire Wire Line
-	7250 2600 7250 2500
-NoConn ~ 8950 2600
-NoConn ~ 8950 3850
-Text Label 10050 6350 2    60   ~ 0
-SRCSET_CLK
-$Comp
-L Custom:74AHC1G04 U?
-U 1 1 5F93C019
-P 4050 2850
-AR Path="/5F93C019" Ref="U?"  Part="1" 
-AR Path="/5B965978/5F93C019" Ref="U15"  Part="1" 
-F 0 "U15" H 4150 3100 50  0000 L CNN
-F 1 "74AHC1G04" H 4150 3000 50  0000 L CNN
-F 2 "" H 4050 2850 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 4050 2850 50  0001 C CNN
-	1    4050 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 3150 4050 3050
-Wire Wire Line
-	4050 2650 4050 2550
+	7850 3900 7150 3900
+NoConn ~ 8850 2600
+NoConn ~ 8850 3900
 $Comp
 L Custom:74LVC1G74 U10
 U 1 1 5F7589E8
-P 1650 1550
-F 0 "U10" H 1800 1900 50  0000 L CNN
-F 1 "74LVC1G74" H 1800 1800 50  0000 L CNN
-F 2 "" H 1650 1550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1650 1550 50  0001 C CNN
-	1    1650 1550
+P 1800 1150
+F 0 "U10" H 1950 1500 50  0000 L CNN
+F 1 "74LVC1G74" H 1950 1400 50  0000 L CNN
+F 2 "" H 1800 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 1800 1150 50  0001 C CNN
+	1    1800 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 1250 1700 1250
+	1750 850  1850 850 
 Wire Wire Line
-	1700 1250 1700 1300
-Connection ~ 1600 1250
+	1850 850  1850 900 
+Connection ~ 1750 850 
 Wire Wire Line
-	1600 1250 1600 1200
+	1750 850  1750 800 
 Wire Wire Line
-	1700 1800 1700 1850
+	1850 1400 1850 1450
 Wire Wire Line
-	1700 1850 1400 1850
-NoConn ~ 1900 1650
+	1850 1450 1550 1450
+NoConn ~ 2050 1250
 Wire Wire Line
-	1600 1800 1600 1900
+	1750 1400 1750 1500
+Connection ~ 1750 1500
 Wire Wire Line
-	1600 1900 800  1900
+	1750 1500 1750 1550
 Wire Wire Line
-	800  1900 800  1250
+	1650 850  1750 850 
+$Comp
+L 74xx:74AHCT244 U21
+U 1 1 5FB559CC
+P 5400 6600
+F 0 "U21" H 5500 7350 50  0000 C CNN
+F 1 "74AHCT244" H 5650 7250 50  0000 C CNN
+F 2 "" H 5400 6600 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf" H 5400 6600 50  0001 C CNN
+	1    5400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0170
+U 1 1 5FB66F29
+P 3800 4200
+F 0 "#PWR0170" H 3800 4050 50  0001 C CNN
+F 1 "+3.3V" H 3815 4373 50  0000 C CNN
+F 2 "" H 3800 4200 50  0001 C CNN
+F 3 "" H 3800 4200 50  0001 C CNN
+	1    3800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0172
+U 1 1 5FB70745
+P 7200 2200
+F 0 "#PWR0172" H 7200 2050 50  0001 C CNN
+F 1 "+3.3V" H 7150 2350 50  0000 C CNN
+F 2 "" H 7200 2200 50  0001 C CNN
+F 3 "" H 7200 2200 50  0001 C CNN
+	1    7200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0174
+U 1 1 5FB72696
+P 1750 800
+F 0 "#PWR0174" H 1750 650 50  0001 C CNN
+F 1 "+3.3V" H 1765 973 50  0000 C CNN
+F 2 "" H 1750 800 50  0001 C CNN
+F 3 "" H 1750 800 50  0001 C CNN
+	1    1750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB7C402
+P 4850 3700
+AR Path="/5FB7C402" Ref="#PWR?"  Part="1" 
+AR Path="/5B3313A4/5FB7C402" Ref="#PWR?"  Part="1" 
+AR Path="/5B965978/5FB7C402" Ref="#PWR0176"  Part="1" 
+F 0 "#PWR0176" H 4850 3450 50  0001 C CNN
+F 1 "GND" H 4850 3550 50  0000 C CNN
+F 2 "" H 4850 3700 50  0001 C CNN
+F 3 "" H 4850 3700 50  0001 C CNN
+	1    4850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB7C408
+P 4550 1950
+AR Path="/5FB7C408" Ref="C?"  Part="1" 
+AR Path="/5B3313A4/5FB7C408" Ref="C?"  Part="1" 
+AR Path="/5B965978/5FB7C408" Ref="C52"  Part="1" 
+F 0 "C52" H 4575 2050 50  0000 L CNN
+F 1 "10nF" H 4575 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4588 1800 50  0001 C CNN
+F 3 "" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74AHC273 U?
+U 1 1 5FB7C40F
+P 4850 2800
+AR Path="/5B3313A4/5FB7C40F" Ref="U?"  Part="1" 
+AR Path="/5B965978/5FB7C40F" Ref="U40"  Part="1" 
+F 0 "U40" H 5000 3550 50  0000 C CNN
+F 1 "74AHC273" H 5100 3450 50  0000 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 4850 2800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT273.pdf" H 4850 2800 50  0001 C CNN
+	1    4850 2800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	800  1250 1200 1250
-Connection ~ 1600 1900
+	4850 2000 4850 1950
 Wire Wire Line
-	1600 1900 1600 1950
+	4850 1950 4700 1950
+Connection ~ 4850 1950
 Wire Wire Line
-	1500 1250 1600 1250
+	4850 1950 4850 1900
+Wire Wire Line
+	4850 3650 4850 3600
+Wire Wire Line
+	4850 3650 4850 3700
+Connection ~ 4850 3650
+Text Label 4350 2300 2    60   ~ 0
+BWRITE1_0
+Text Label 4350 2400 2    60   ~ 0
+BWRITE1_1
+Text Label 4350 2500 2    60   ~ 0
+BWRITE1_2
+Text Label 4350 2600 2    60   ~ 0
+BWRITE1_3
+Text Label 4350 2700 2    60   ~ 0
+BWRITE1_4
+Text Label 4350 2800 2    60   ~ 0
+BWRITE1_5
+Text Label 1650 3700 0    60   ~ 0
+CLK_MODULE_MEMUSER
+Text HLabel 1600 3700 0    60   Input ~ 0
+CLK_MODULE_MEMUSER
+Wire Wire Line
+	1600 3700 1650 3700
+Text Label 1650 3600 0    60   ~ 0
+~RESET
+Text HLabel 1600 3600 0    60   Input ~ 0
+~RESET
+Wire Wire Line
+	1600 3600 1650 3600
+Text Label 1550 1450 2    60   ~ 0
+~RESET
+$Comp
+L power:+3.3V #PWR0182
+U 1 1 5FBBE6C4
+P 4850 1900
+F 0 "#PWR0182" H 4850 1750 50  0001 C CNN
+F 1 "+3.3V" H 4865 2073 50  0000 C CNN
+F 2 "" H 4850 1900 50  0001 C CNN
+F 3 "" H 4850 1900 50  0001 C CNN
+	1    4850 1900
+	1    0    0    -1  
+$EndComp
+Text Label 4350 3300 2    60   ~ 0
+~RESET
+Text Label 5350 2400 0    60   ~ 0
+USER_~WE
+Text Label 5350 2500 0    60   ~ 0
+USER_~OE
+Text Label 1650 3800 0    60   ~ 0
+~CS_MODULE_MEMUSER
+Text HLabel 1600 3800 0    60   Input ~ 0
+~CS_MODULE_MEMUSER
+Wire Wire Line
+	1600 3800 1650 3800
+Text Label 7750 6000 2    60   ~ 0
+USER_~OE
+$Comp
+L power:+5V #PWR?
+U 1 1 5FBF7D6B
+P 8050 5700
+AR Path="/5FBF7D6B" Ref="#PWR?"  Part="1" 
+AR Path="/5BF276EA/5C3C5768/5FBF7D6B" Ref="#PWR?"  Part="1" 
+AR Path="/5B965978/5FBF7D6B" Ref="#PWR0183"  Part="1" 
+F 0 "#PWR0183" H 8050 5550 50  0001 C CNN
+F 1 "+5V" H 8050 5840 50  0000 C CNN
+F 2 "" H 8050 5700 50  0001 C CNN
+F 3 "" H 8050 5700 50  0001 C CNN
+	1    8050 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBF7D71
+P 8050 6300
+AR Path="/5FBF7D71" Ref="#PWR?"  Part="1" 
+AR Path="/5BF276EA/5C3C5768/5FBF7D71" Ref="#PWR?"  Part="1" 
+AR Path="/5B965978/5FBF7D71" Ref="#PWR0184"  Part="1" 
+F 0 "#PWR0184" H 8050 6050 50  0001 C CNN
+F 1 "GND" H 8050 6150 50  0000 C CNN
+F 2 "" H 8050 6300 50  0001 C CNN
+F 3 "" H 8050 6300 50  0001 C CNN
+	1    8050 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 6300 8050 6200
+Wire Wire Line
+	8050 5800 8050 5700
+Text Label 8350 6000 0    60   ~ 0
+USER_OE
+Text Label 3250 5550 2    60   ~ 0
+USER_OE
+Wire Wire Line
+	6600 5300 5850 5300
+Wire Wire Line
+	5950 5200 6600 5200
+Wire Wire Line
+	6600 5100 6050 5100
+Wire Wire Line
+	6150 5000 6600 5000
+Wire Wire Line
+	6600 4900 6250 4900
+Wire Wire Line
+	6350 4800 6600 4800
+Wire Wire Line
+	6600 4700 6450 4700
+Wire Wire Line
+	6550 5400 6550 4600
+Text Label 6600 5300 0    60   ~ 0
+USER_RW_7
+Text Label 6600 5200 0    60   ~ 0
+USER_RW_6
+Text Label 6600 5100 0    60   ~ 0
+USER_RW_5
+Text Label 6600 5000 0    60   ~ 0
+USER_RW_4
+Text Label 6600 4900 0    60   ~ 0
+USER_RW_3
+Text Label 6600 4800 0    60   ~ 0
+USER_RW_2
+Text Label 6600 4700 0    60   ~ 0
+USER_RW_1
+Text Label 6600 4600 0    60   ~ 0
+USER_RW_0
+$Comp
+L Custom:74AHCT1G04 U15
+U 1 1 5FC4FE53
+P 8050 6000
+F 0 "U15" H 8150 6250 50  0000 L CNN
+F 1 "74AHCT1G04" H 8150 6150 50  0000 L CNN
+F 2 "" H 8050 6000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 8050 6000 50  0001 C CNN
+	1    8050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FC5A836
+P 8050 5300
+AR Path="/5FC5A836" Ref="#PWR?"  Part="1" 
+AR Path="/5BF276EA/5C3C5768/5FC5A836" Ref="#PWR?"  Part="1" 
+AR Path="/5B965978/5FC5A836" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 8050 5050 50  0001 C CNN
+F 1 "GND" H 8050 5150 50  0000 C CNN
+F 2 "" H 8050 5300 50  0001 C CNN
+F 3 "" H 8050 5300 50  0001 C CNN
+	1    8050 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5300 8050 5200
+Wire Wire Line
+	8050 4800 8050 4700
+Text Label 7750 5000 2    60   ~ 0
+USER_CE
+Text Label 8350 5000 0    60   ~ 0
+USER_~CE
+Text Label 5350 2300 0    60   ~ 0
+USER_CE
+Text Label 4350 3200 2    60   ~ 0
+CLK_MODULE_MEMUSER
+Wire Wire Line
+	3300 1950 3300 2900
+Wire Wire Line
+	3300 1950 4400 1950
+Wire Wire Line
+	3300 3650 4850 3650
+Text Label 4850 7050 2    60   ~ 0
+~CS_MODULE_MEMUSER
+$Comp
+L power:GND #PWR?
+U 1 1 5FC952FA
+P 4150 6000
+AR Path="/5B31C462/5FC952FA" Ref="#PWR?"  Part="1" 
+AR Path="/5B965978/5FC952FA" Ref="#PWR0186"  Part="1" 
+AR Path="/5FC952FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0186" H 4150 5750 50  0001 C CNN
+F 1 "GND" H 4150 5850 50  0000 C CNN
+F 2 "" H 4150 6000 50  0001 C CNN
+F 3 "" H 4150 6000 50  0001 C CNN
+	1    4150 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 6000 4150 5750
+Wire Wire Line
+	5400 7400 5400 7500
+Text Label 7850 3700 2    60   ~ 0
+USER_~WE
+Text Label 7850 3800 2    60   ~ 0
+USER_~OE
+Text Label 7850 3600 2    60   ~ 0
+USER_~CE
+$Comp
+L Custom:74AHC1G04 U41
+U 1 1 5FCCE315
+P 8050 5000
+F 0 "U41" H 8150 5250 50  0000 L CNN
+F 1 "74AHC1G04" H 8150 5150 50  0000 L CNN
+F 2 "" H 8050 5000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 8050 5000 50  0001 C CNN
+	1    8050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0187
+U 1 1 5FCD7B9C
+P 8050 4700
+F 0 "#PWR0187" H 8050 4550 50  0001 C CNN
+F 1 "+3.3V" H 8065 4873 50  0000 C CNN
+F 2 "" H 8050 4700 50  0001 C CNN
+F 3 "" H 8050 4700 50  0001 C CNN
+	1    8050 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  1500 600  850 
+Wire Wire Line
+	600  1500 1750 1500
+Wire Wire Line
+	600  850  1350 850 
+Text Label 5350 2600 0    60   ~ 0
+USER_ADDRESS_CLK_0
+Text Label 5350 2700 0    60   ~ 0
+USER_ADDRESS_CLK_1
+Text Label 5350 2800 0    60   ~ 0
+USER_ADDRESS_CLK_2
+Wire Wire Line
+	4350 2900 3300 2900
+Connection ~ 3300 2900
+Wire Wire Line
+	3300 2900 3300 3000
+Wire Wire Line
+	4350 3000 3300 3000
+Connection ~ 3300 3000
+Wire Wire Line
+	3300 3000 3300 3650
+NoConn ~ 5350 2900
+NoConn ~ 5350 3000
+Text Label 3750 750  2    60   ~ 0
+BWRITE2_[0..7]
+Text Label 3750 1150 2    60   ~ 0
+USER_ADDRESS_CLK_0
+Text Label 3750 1250 2    60   ~ 0
+USER_ADDRESS_CLK_1
+Text Label 3750 1350 2    60   ~ 0
+USER_ADDRESS_CLK_2
+Wire Wire Line
+	3750 1150 3800 1150
+Wire Wire Line
+	3750 1250 3800 1250
+Wire Wire Line
+	3750 1350 3800 1350
+Text Label 10050 700  2    60   ~ 0
+MEM1ADDRESS_[0..23]
+Text Label 10050 800  2    60   ~ 0
+MEM2ADDRESS_[0..23]
+Text Label 5800 750  0    60   ~ 0
+MEM1ADDRESS_[0..23]
+Text Label 5800 850  0    60   ~ 0
+MEM2ADDRESS_[0..23]
+Text Label 3750 1500 2    60   ~ 0
+~RESET
+Wire Wire Line
+	3750 1500 3800 1500
+Text Label 10050 6350 2    60   ~ 0
+CLK_MODULE_SRCSET
+$Comp
+L 74xx:74CBTLV16212 U?
+U 1 1 60534349
+P 8350 2500
+AR Path="/5B965978/5DA7D21D/60534349" Ref="U?"  Part="1" 
+AR Path="/5B965978/60534349" Ref="U22"  Part="1" 
+F 0 "U22" H 8500 4150 50  0000 C CNN
+F 1 "74CBTLV16212" H 8700 4050 50  0000 C CNN
+F 2 "" H 8350 3300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74cbtlv16212.pdf" H 8350 3300 50  0001 C CNN
+	1    8350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 700  8350 750 
+Connection ~ 8350 750 
+Wire Wire Line
+	8350 750  8350 800 
+Wire Wire Line
+	7150 2300 7150 2500
+Wire Wire Line
+	7850 2500 7150 2500
+Connection ~ 7150 2500
+Wire Wire Line
+	7150 2500 7150 2600
+Wire Wire Line
+	7850 2600 7150 2600
+Connection ~ 7150 2600
+Wire Wire Line
+	7150 2600 7150 3900
+Wire Wire Line
+	7150 3900 7150 4300
+Wire Bus Line
+	10000 4050 10000 4850
 Wire Bus Line
 	1500 4400 1500 5200
 Wire Bus Line
@@ -1134,6 +1296,5 @@ Wire Bus Line
 	1500 5650 1500 6450
 Wire Bus Line
 	1500 6800 1500 7600
-Wire Bus Line
-	10000 4050 10000 4850
+Connection ~ 7150 3900
 $EndSCHEMATC
