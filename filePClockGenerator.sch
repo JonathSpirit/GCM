@@ -166,7 +166,7 @@ AR Path="/5B3313A4/5FB1D330" Ref="U?"  Part="1"
 AR Path="/5B3313A4/5FB03E55/5FB1D330" Ref="U33"  Part="1" 
 F 0 "U33" H 5000 2250 60  0000 C CNN
 F 1 "SN74LV393A" H 5200 2150 60  0000 C CNN
-F 2 "" H 4700 1950 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1950 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv393a-q1.pdf" H 4700 1950 60  0001 C CNN
 	1    4850 1650
 	1    0    0    -1  
@@ -179,7 +179,7 @@ AR Path="/5B3313A4/5FB1D336" Ref="U?"  Part="1"
 AR Path="/5B3313A4/5FB03E55/5FB1D336" Ref="U34"  Part="1" 
 F 0 "U34" H 5000 4600 60  0000 C CNN
 F 1 "SN74LV393A" H 5200 4500 60  0000 C CNN
-F 2 "" H 4700 4300 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4300 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74lv393a-q1.pdf" H 4700 4300 60  0001 C CNN
 	1    4850 4000
 	1    0    0    -1  
@@ -296,7 +296,7 @@ AR Path="/5B3313A4/5FB1D371" Ref="U?"  Part="1"
 AR Path="/5B3313A4/5FB03E55/5FB1D371" Ref="U35"  Part="1" 
 F 0 "U35" H 8100 2750 50  0000 C CNN
 F 1 "CD74AC151" H 8250 2650 50  0000 C CNN
-F 2 "" H 7950 1900 50  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7950 1900 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac151.pdf" H 7950 1900 50  0001 C CNN
 	1    7950 1900
 	1    0    0    -1  
@@ -309,7 +309,7 @@ AR Path="/5B3313A4/5FB1D377" Ref="U?"  Part="1"
 AR Path="/5B3313A4/5FB03E55/5FB1D377" Ref="U36"  Part="1" 
 F 0 "U36" H 8100 5300 50  0000 C CNN
 F 1 "CD74AC151" H 8250 5200 50  0000 C CNN
-F 2 "" H 7950 4450 50  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7950 4450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac151.pdf" H 7950 4450 50  0001 C CNN
 	1    7950 4450
 	1    0    0    -1  
@@ -392,7 +392,7 @@ AR Path="/5B3313A4/5FB1D39B" Ref="U?"  Part="1"
 AR Path="/5B3313A4/5FB03E55/5FB1D39B" Ref="U37"  Part="1" 
 F 0 "U37" H 10150 3350 50  0000 C CNN
 F 1 "CD74AC151" H 10300 3250 50  0000 C CNN
-F 2 "" H 10000 2500 50  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 10000 2500 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac151.pdf" H 10000 2500 50  0001 C CNN
 	1    10000 2500
 	1    0    0    -1  

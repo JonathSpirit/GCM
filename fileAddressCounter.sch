@@ -499,7 +499,7 @@ AR Path="/5F9095CA" Ref="U?"  Part="1"
 AR Path="/5A93FC93/5F9095CA" Ref="U18"  Part="1" 
 F 0 "U18" H 10050 5850 50  0000 L CNN
 F 1 "74AHC1G04" H 10050 5750 50  0000 L CNN
-F 2 "" H 9950 5600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9950 5600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 9950 5600 50  0001 C CNN
 	1    9950 5600
 	1    0    0    -1  
@@ -542,7 +542,7 @@ AR Path="/5FB1C84B" Ref="U?"  Part="1"
 AR Path="/5A93FC93/5FB1C84B" Ref="U39"  Part="1" 
 F 0 "U39" H 7800 5850 50  0000 L CNN
 F 1 "74AHC1G04" H 7800 5750 50  0000 L CNN
-F 2 "" H 7700 5600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7700 5600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 7700 5600 50  0001 C CNN
 	1    7700 5600
 	1    0    0    -1  
@@ -583,7 +583,7 @@ AR Path="/5FB2A8CE" Ref="U?"  Part="1"
 AR Path="/5A93FC93/5FB2A8CE" Ref="U38"  Part="1" 
 F 0 "U38" H 6950 5850 50  0000 L CNN
 F 1 "74AHC1G04" H 6950 5750 50  0000 L CNN
-F 2 "" H 6850 5600 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6850 5600 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 6850 5600 50  0001 C CNN
 	1    6850 5600
 	1    0    0    -1  
@@ -646,7 +646,7 @@ U 1 1 5FB86117
 P 8100 1650
 F 0 "U19" H 8350 2250 60  0000 C CNN
 F 1 "CD74AC161M" H 8550 2150 60  0000 C CNN
-F 2 "" H 7950 1950 60  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7950 1950 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 7950 1950 60  0001 C CNN
 	1    8100 1650
 	1    0    0    -1  
@@ -707,7 +707,7 @@ U 1 1 5FBDAF6D
 P 8100 3600
 F 0 "U20" H 8350 4200 60  0000 C CNN
 F 1 "CD74AC161M" H 8550 4100 60  0000 C CNN
-F 2 "" H 7950 3900 60  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 7950 3900 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 7950 3900 60  0001 C CNN
 	1    8100 3600
 	1    0    0    -1  
@@ -774,7 +774,7 @@ U 1 1 5FBF887B
 P 5250 1650
 F 0 "U16" H 5500 2250 60  0000 C CNN
 F 1 "CD74AC161M" H 5700 2150 60  0000 C CNN
-F 2 "" H 5100 1950 60  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 5100 1950 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 5100 1950 60  0001 C CNN
 	1    5250 1650
 	1    0    0    -1  
@@ -835,7 +835,7 @@ U 1 1 5FBF88A9
 P 5250 3600
 F 0 "U17" H 5500 4200 60  0000 C CNN
 F 1 "CD74AC161M" H 5700 4100 60  0000 C CNN
-F 2 "" H 5100 3900 60  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 5100 3900 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 5100 3900 60  0001 C CNN
 	1    5250 3600
 	1    0    0    -1  
@@ -902,7 +902,7 @@ U 1 1 5FC6762F
 P 2400 1650
 F 0 "U13" H 2650 2250 60  0000 C CNN
 F 1 "CD74AC161M" H 2850 2150 60  0000 C CNN
-F 2 "" H 2250 1950 60  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 2250 1950 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 2250 1950 60  0001 C CNN
 	1    2400 1650
 	1    0    0    -1  
@@ -963,7 +963,7 @@ U 1 1 5FC67655
 P 2400 3600
 F 0 "U14" H 2650 4200 60  0000 C CNN
 F 1 "CD74AC161M" H 2850 4100 60  0000 C CNN
-F 2 "" H 2250 3900 60  0001 C CNN
+F 2 "Package_SO:SOP-16_3.9x9.9mm_P1.27mm" H 2250 3900 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 2250 3900 60  0001 C CNN
 	1    2400 3600
 	1    0    0    -1  
@@ -1037,14 +1037,6 @@ Text Label 7600 3350 2    60   ~ 0
 ~CLEAR
 Text Label 4750 3350 2    60   ~ 0
 ~CLEAR
-Wire Bus Line
-	5450 6100 5450 7300
-Wire Bus Line
-	4450 6100 4450 7300
-Wire Bus Line
-	2400 6100 2400 7300
-Wire Bus Line
-	1550 6100 1550 7300
 $Comp
 L power:+3.3V #PWR0113
 U 1 1 5FB4F2DF
@@ -1111,4 +1103,12 @@ F 3 "" H 5250 2850 50  0001 C CNN
 	1    5250 2850
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	5450 6100 5450 7300
+Wire Bus Line
+	4450 6100 4450 7300
+Wire Bus Line
+	2400 6100 2400 7300
+Wire Bus Line
+	1550 6100 1550 7300
 $EndSCHEMATC
