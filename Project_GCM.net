@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\guill\Desktop\Creation\Github\GCM\Project_GCM.sch)
-    (date "16.11.2020 10:24:47")
+    (date "16.11.2020 10:52:02")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -753,7 +753,7 @@
       (tstamp 5D5B8D65))
     (comp (ref J10)
       (value MM1_addressExtension)
-      (footprint Connector_Multicomp:Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical)
+      (footprint Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x10) (description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /MemorySlot1/) (tstamps /5B94DD6C/))
@@ -929,7 +929,7 @@
       (tstamp 5D0EEF10))
     (comp (ref J13)
       (value MM1_addressExtension)
-      (footprint Connector_Multicomp:Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical)
+      (footprint Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector_Generic) (part Conn_01x10) (description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /MemorySlot2/) (tstamps /5E0692F0/))

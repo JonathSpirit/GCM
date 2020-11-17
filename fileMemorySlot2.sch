@@ -367,7 +367,7 @@ AR Path="/5B94DD6C/5D5B8D66" Ref="J?"  Part="1"
 AR Path="/5E0692F0/5D5B8D66" Ref="J13"  Part="1" 
 F 0 "J13" H 10218 1825 50  0000 C CNN
 F 1 "MM1_addressExtension" H 10218 1916 50  0000 C CNN
-F 2 "Connector_Multicomp:Multicomp_MC9A12-1034_2x05_P2.54mm_Vertical" H 10300 2550 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 10300 2550 50  0001 C CNN
 F 3 "~" H 10300 2550 50  0001 C CNN
 	1    10300 2550
 	1    0    0    1   
