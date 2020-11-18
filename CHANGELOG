@@ -27,6 +27,7 @@ GCM V5.0 :
     - Removing/Cleaning old footprints
     - Set version to 5.0
     - Fixing 3D
+    - Adding QRCode with the Github link
 
 - SCHEMATICS FEATURES
     - Complete change of the clock generation
