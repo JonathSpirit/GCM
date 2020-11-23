@@ -1,4 +1,4 @@
-update=16.11.2020 17:07:39
+update=23.11.2020 17:31:48
 version=1
 last_client=kicad
 [cvpcb]
@@ -61,7 +61,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.2
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
@@ -71,7 +71,7 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
+Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
@@ -244,7 +244,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=Volt
+Name=Power
 Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.55
