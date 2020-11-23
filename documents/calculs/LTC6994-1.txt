@@ -1,4 +1,4 @@
-Tdelay = 200ms
+For a Tdelay of 200ms :
 
 200ms / 16us <= Ndiv <= 200ms / 1us
 
@@ -9,3 +9,5 @@ Ndiv = 32768
 Rset = (50k / 1us) * (Tdelay / Ndiv)
 Rset = (50k / 1us) * (200ms / 32768)
 Rset = 305.1758kOhm
+
+https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6994-1-6994-2.pdf
