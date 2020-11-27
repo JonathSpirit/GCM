@@ -7,6 +7,7 @@ GCM V5.0 :
     - Renaming "librairies" folder to "libraries"
 
 - DOCUMENTS
+    - Adding the GCM datasheet
     - Adding the CHANGELOG file
     - Adding waveforms
     - Cleaning
