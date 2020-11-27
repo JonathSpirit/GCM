@@ -1,0 +1,55 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G04
+D Single NOT Gate, AHCMOS
+K Single Gate NOT AHCMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+$CMP 74AHC1G32
+D Single OR Gate, AHCMOS
+K Single Gate OR AHCMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G04
+D Single NOT Gate, AHCTMOS
+K Single Gate NOT AHCTMOS
+F https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf
+$ENDCMP
+#
+$CMP 74AHCT1G32
+D Single OR Gate, AHCTMOS
+K Single Gate OR AHCTMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC1G74
+D Single D Flip-Flop, Low-Voltage CMOS
+K Single D Flip-Flop D CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP CD74AC151
+D Multiplexer 8 to 1
+K MUX8
+F https://www.ti.com/lit/ds/symlink/cd74ac151.pdf
+$ENDCMP
+#
+$CMP CD74AC161M
+D Counter ICs Sync Preset Binary w/ASync Reset
+F https://www.ti.com/lit/ds/symlink/cd74ac161.pdf
+$ENDCMP
+#
+$CMP SN74LV393A
+D Counter ICs Dual 4-Bit Binary
+F https://www.ti.com/lit/ds/symlink/sn74lv393a-q1.pdf
+$ENDCMP
+#
+$CMP TE_Eurocard_96pole
+D TE
+K connector
+F ~
+$ENDCMP
+#
+#End Doc Library

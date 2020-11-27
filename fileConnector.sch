@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 9
+Sheet 3 10
 Title "GCM"
-Date "2019-07-07"
+Date "2020-11-23"
 Rev "V5.0"
 Comp "Guillaume Guillet"
 Comment1 "Copyright Guillaume Guillet 2020"
@@ -1174,11 +1174,54 @@ Wire Wire Line
 	6650 1300 6600 1300
 Wire Wire Line
 	6600 1300 6600 1200
-NoConn ~ 5250 6000
 NoConn ~ 5250 6700
 NoConn ~ 5250 6600
 NoConn ~ 5250 6500
 NoConn ~ 5250 3800
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FB10BC7
+P 6700 3050
+F 0 "H1" H 6800 3096 50  0000 L CNN
+F 1 "MountingHole_3mm" H 6800 3005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 6700 3050 50  0001 C CNN
+F 3 "~" H 6700 3050 50  0001 C CNN
+	1    6700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FB110FA
+P 7750 3050
+F 0 "H2" H 7850 3096 50  0000 L CNN
+F 1 "MountingHole_3mm" H 7850 3005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 3050 50  0001 C CNN
+F 3 "~" H 7750 3050 50  0001 C CNN
+	1    7750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FB11338
+P 6700 3550
+F 0 "H3" H 6800 3596 50  0000 L CNN
+F 1 "MountingHole_3mm" H 6800 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 6700 3550 50  0001 C CNN
+F 3 "~" H 6700 3550 50  0001 C CNN
+	1    6700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FB11A74
+P 7750 3550
+F 0 "H4" H 7850 3596 50  0000 L CNN
+F 1 "MountingHole_3mm" H 7850 3505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm" H 7750 3550 50  0001 C CNN
+F 3 "~" H 7750 3550 50  0001 C CNN
+	1    7750 3550
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	10050 4950 10050 5550
 Wire Bus Line
