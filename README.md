@@ -35,10 +35,10 @@ Version :
 > GCM_V5.0
 
 Status :
-> Not tested !
+> Testing ...
 
 Known issues :
-> (Empty)
+> 4 light impact bugs, 1 high impact bug, (Please to avoid any problems wait the V5.1 release)
 
 ## Block diagram
 
