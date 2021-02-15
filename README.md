@@ -73,8 +73,9 @@ Compatible with all processor following the [SPS1](https://github.com/JonathSpir
 
 | Processor     | Compatibility |
 | ------------- | ------------- |
-| [GP8B_V4.x](https://github.com/JonathSpirit/GP8B/tree/V4.0)  | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+)  |
-| [GP8B_V5.x](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+)  |
+| [GP8B_V4.x](https://github.com/JonathSpirit/GP8B/tree/V4.0)  | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)  |
+| [GP8B_V5.0](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)  |
+| [GP8B_V5.1+](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+)  |
 
 ![#00ff00](https://placehold.it/15/00ff00/000000?text=+) `Fully compatible`\
 ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) `Semi compatible`\
