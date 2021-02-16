@@ -1117,7 +1117,7 @@ AR Path="/5D2CD391" Ref="J?"  Part="1"
 AR Path="/5B31C462/5D2CD391" Ref="J9"  Part="1" 
 F 0 "J9" H 6930 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 6930 1201 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6850 1300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 1300 50  0001 C CNN
 F 3 "~" H 6850 1300 50  0001 C CNN
 	1    6850 1300
 	1    0    0    -1  
