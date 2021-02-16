@@ -1127,7 +1127,7 @@ U 1 1 5D3DCAFC
 P 9900 5100
 F 0 "J12" H 9950 3850 50  0000 C CNN
 F 1 "DEBUG_BUSES" H 9900 3950 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x21_P2.54mm_Vertical" H 9900 5100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x21_P2.54mm_Vertical" H 9900 5100 50  0001 C CNN
 F 3 "~" H 9900 5100 50  0001 C CNN
 	1    9900 5100
 	-1   0    0    1   
