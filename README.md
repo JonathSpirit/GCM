@@ -1,6 +1,6 @@
 # GCM - GCardMother
 
-Copyright (C) 2020 Guillaume Guillet\
+Copyright (C) 2021 Guillaume Guillet\
 Licensed under CERN-OHL-W v2 or later
 
 <table border="0px">
@@ -32,13 +32,13 @@ G_CardMother is a homemade without any microcontroller motherboard for 8bits pro
 ## Status
 
 Version :
-> GCM_V5.0
+> GCM_V5.1
 
 Status :
-> Testing ...
+> Not tested !
 
 Known issues :
-> 4 light impact bugs, 1 high impact bug, (Please to avoid any problems wait the V5.1 release)
+> (unknown)
 
 ## Block diagram
 
