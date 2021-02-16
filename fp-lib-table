@@ -3,4 +3,5 @@
   (lib (name Eurocard_5536475-1)(type KiCad)(uri "$(KIPRJMOD)/libraries/Eurocard_5536475-1.pretty")(options "")(descr ""))
   (lib (name TE_5-5530843-4)(type KiCad)(uri ${KIPRJMOD}/libraries/TE_5-5530843-4.pretty)(options "")(descr ""))
   (lib (name QRCode)(type KiCad)(uri ${KIPRJMOD}/libraries/QRCode.pretty)(options "")(descr ""))
+  (lib (name TE_3-641124-6)(type KiCad)(uri ${KIPRJMOD}/libraries/TE_3-641124-6.pretty)(options "")(descr ""))
 )
