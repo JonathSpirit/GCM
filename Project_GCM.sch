@@ -141,8 +141,6 @@ F 3 "" H 1050 3550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 3700 2350 3700
-Wire Wire Line
 	1450 3550 1450 3700
 Wire Wire Line
 	1450 3700 1550 3700
@@ -189,17 +187,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 4000 2050 4000
 $Comp
-L Device:C C2
-U 1 1 5B3D76C6
-P 2350 4100
-F 0 "C2" H 2375 4200 50  0000 L CNN
-F 1 "10nF" H 2375 4000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2388 3950 50  0001 C CNN
-F 3 "" H 2350 4100 50  0001 C CNN
-	1    2350 4100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5B3E1786
 P 2600 4100
@@ -234,19 +221,11 @@ Wire Wire Line
 	2600 3950 2600 3800
 Connection ~ 2600 3800
 Wire Wire Line
-	2350 3950 2350 3700
-Connection ~ 2350 3700
-Wire Wire Line
-	2150 4300 2350 4300
-Wire Wire Line
 	2850 4300 2850 4250
 Connection ~ 2150 4300
 Wire Wire Line
 	2600 4300 2600 4250
 Connection ~ 2600 4300
-Wire Wire Line
-	2350 4300 2350 4250
-Connection ~ 2350 4300
 Text Label 3150 1350 0    60   ~ 0
 NUMBER_[0..7]
 Text Label 3150 1050 0    60   ~ 0
@@ -758,13 +737,9 @@ Wire Wire Line
 Wire Wire Line
 	2600 3800 2650 3800
 Wire Wire Line
-	2350 3700 2400 3700
-Wire Wire Line
 	2150 4300 2150 4350
 Wire Wire Line
 	2600 4300 2850 4300
-Wire Wire Line
-	2350 4300 2600 4300
 Wire Wire Line
 	2900 3900 3700 3900
 Wire Wire Line
@@ -1575,6 +1550,10 @@ Wire Wire Line
 Connection ~ 2400 3700
 Wire Wire Line
 	2400 3700 3200 3700
+Wire Wire Line
+	2050 3700 2400 3700
+Wire Wire Line
+	2150 4300 2600 4300
 Wire Bus Line
 	9000 1750 9000 2500
 Wire Bus Line
