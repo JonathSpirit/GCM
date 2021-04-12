@@ -1590,13 +1590,13 @@ Wire Wire Line
 Connection ~ 1950 3650
 Wire Wire Line
 	2550 3750 2750 3750
+Connection ~ 2550 3750
+Text Notes 1250 4100 0    60   ~ 0
+Power supply
 Wire Bus Line
 	9000 1750 9000 2500
 Wire Bus Line
 	9000 2700 9000 3500
 Wire Bus Line
 	10400 1250 10400 3650
-Connection ~ 2550 3750
-Text Notes 1250 4100 0    60   ~ 0
-Power supply
 $EndSCHEMATC
