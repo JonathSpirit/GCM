@@ -2,6 +2,7 @@ GCM V5.1 :
 - DOCUMENTS
     - Flipped ordering of version in CHANGELOG file
     - Updated the BOM and fix wrong J9 ref #5 #3
+    - Small revision on the block diagram
 
 - SCHEMATICS
     - Set version to 5.1
