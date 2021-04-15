@@ -1,16 +1,10 @@
 {signal: [
-  {name: 'BJMPSRC_X', wave: 				'x....=.x.|', data: ["0x42"]},
-  {name: '~JMPSRC_CLK', wave: 				'1.....lh.|'},
-  {name: '~CLEAR', wave: 				    '1lh......|'},
-  {name: 'ADDSRC_CLK', wave: 				'l.HlHlHl.|'},
-  {name: 'ADDSRC_DELAYED_CLK', wave: 		'l.101010.|'},
+  {name: 'BJMPSRC_X', wave: 				'x....=...x.|', data: ["n"]},
+  {name: '~JMPSRC_CLK', wave: 				'1.....l.h..|'},
+  {name: '~CLEAR', wave: 				    '1lh........|'},
+  {name: 'ADDSRC_CLK', wave: 				'lHlHlHlHlHl|'},
   {},
-  {name: 'SRCADD_x', wave: 		            'x==.=.=..|',  data: ["0x00", "0x01", "0x02", "0x42"]},
-],
-edge: [
-  'a~b Read time',
-  'a~c Rewrite time',
-  'a-~d Time before read again'
+  {name: 'SRCADD_x', wave: 		            'x=.=.=.=.=.|',  data: ["0", "1", "2", "n", "n+1"]},
 ],
 head:{
    text:'24bits address counter',
