@@ -69,17 +69,17 @@ Known issues :
 This motherboard, follow the [MOM1_SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 ## Compatibility
-Compatible with all processor following the [SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
+Should be compatible with all processor following the [SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 | Processor     | Compatibility |
 | ------------- | ------------- |
-| [GP8B_V4.x](https://github.com/JonathSpirit/GP8B/tree/V4.0)  | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)  |
-| [GP8B_V5.0](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![#ff0000](https://placehold.it/15/ff0000/000000?text=+)  |
-| [GP8B_V5.1+](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+)  |
+| [GP8B_V4.x](https://github.com/JonathSpirit/GP8B/tree/V4.0)  | ![none](https://img.shields.io/badge/-none-red)  |
+| [GP8B_V5.0](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![none](https://img.shields.io/badge/-none-red)  |
+| [GP8B_V5.1+](https://github.com/JonathSpirit/GP8B/tree/V5.1)  | ![fully](https://img.shields.io/badge/-fully-green)  |
 
-![#00ff00](https://placehold.it/15/00ff00/000000?text=+) `Fully compatible`\
-![#ffff00](https://placehold.it/15/ffff00/000000?text=+) `Semi compatible`\
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+) `No compatible`
+![compatibility_fully](https://img.shields.io/badge/compatibility-fully-green)
+![compatibility_partially](https://img.shields.io/badge/compatibility-partially-yellow)
+![compatibility_none](https://img.shields.io/badge/compatibility-none-red)
 
 ## Documents
 [Block diagram (.pdf)](documents/blockDiagram/GCM_blockDiagram.pdf)
