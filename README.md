@@ -29,20 +29,18 @@ G_CardMother is a homemade without any microcontroller motherboard for 8bits pro
 <img src="images/GCM.JPG" alt="GCM_image" width="400"/> <img src="images/GCM_3D.png" alt="GCM_3D_image" width="400"/>
 <img src="images/GCM_3D_TOP.png" alt="GCM_3D_TOP_image" width="400"/> <img src="images/GCM_3D_BOT.png" alt="GCM_3D_BOT_image" width="400"/>
 
-## Status
+## Stats
 
-Version :
-> GCM_V5.1
+![version](https://img.shields.io/badge/version-GCM_5.1-blue)
 
-Status :
-> Not tested !
+![status](https://img.shields.io/badge/status-not_tested,_should_be_stable-yellow)
 
-Known issues :
-> (unknown)
+![bug](https://img.shields.io/github/issues/JonathSpirit/GCM/bug)\
+![high_impact](https://img.shields.io/github/issues/JonathSpirit/GCM/high%20impact)\
+![medium_impact](https://img.shields.io/github/issues/JonathSpirit/GCM/medium%20impact)\
+![light_impact](https://img.shields.io/github/issues/JonathSpirit/GCM/light%20impact)
 
 ## Block diagram
-
-[Block diagram (.pdf)](documents/blockDiagram/GCM_blockDiagram.pdf)
 
 <img src="images/diagram.png" alt="Image of diagram" width="600"/>
 
@@ -50,17 +48,16 @@ Known issues :
 
 - Follow the [MOM1_SPS1](https://github.com/JonathSpirit/GComputer_standard) standard.
 
-- A controllable frequency of 50Mhz divisible by multiples of two up to a division of 65536.
+- A max frequency of 50Mhz divisible by multiples of two (up to a division of 65536).
+  For the processor and a seperated line for peripherals.
 
-- The same separate controllable frequency divisible by multiples of two for peripherals.
-
-- 4 peripherals slot (that follow standard [PP1](https://github.com/JonathSpirit/GComputer_standard)).
+- 4 [PP1](https://github.com/JonathSpirit/GComputer_standard) peripherals slot.
 
 - 2 [MM1](https://github.com/JonathSpirit/GComputer_standard) memory slot with address extension.
 
-- Readable code source switching from the 2 memory slot.
+- Code execution from the memory slot 1 and switchable with the memory slot 2.
 
-- Redirection of the writing buses.
+- Redirection of the writing buses (can be used as buffer).
 
 - Accessible debug pins.
 
