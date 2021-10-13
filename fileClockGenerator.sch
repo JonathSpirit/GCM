@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "GCM"
-Date "2020-11-23"
-Rev "V5.0"
+Date "2021-02-16"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -198,7 +198,7 @@ AR Path="/5F751FC7" Ref="C?"  Part="1"
 AR Path="/5B3313A4/5F751FC7" Ref="C11"  Part="1" 
 F 0 "C11" H 1425 2100 50  0000 L CNN
 F 1 "100nF" H 1425 1900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1438 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1438 1850 50  0001 C CNN
 F 3 "" H 1400 2000 50  0001 C CNN
 	1    1400 2000
 	1    0    0    -1  
@@ -249,6 +249,8 @@ $Comp
 L Custom:SN74LV393A U26
 U 1 1 5FDD1821
 P 4950 1550
+AR Path="/5FDD1821" Ref="U26"  Part="1" 
+AR Path="/5B3313A4/5FDD1821" Ref="U26"  Part="1" 
 F 0 "U26" H 5100 2150 60  0000 C CNN
 F 1 "SN74LV393A" H 5300 2050 60  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 1850 60  0001 C CNN
@@ -260,6 +262,8 @@ $Comp
 L Custom:SN74LV393A U27
 U 1 1 5FDD314D
 P 4950 3900
+AR Path="/5FDD314D" Ref="U27"  Part="1" 
+AR Path="/5B3313A4/5FDD314D" Ref="U27"  Part="1" 
 F 0 "U27" H 5100 4500 60  0000 C CNN
 F 1 "SN74LV393A" H 5300 4400 60  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 4200 60  0001 C CNN

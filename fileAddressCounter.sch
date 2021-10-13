@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 10
 Title "GCM"
-Date "2020-11-23"
-Rev "V5.0"
+Date "2021-02-16"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -260,32 +260,32 @@ Wire Wire Line
 $Comp
 L power:GND #PWR083
 U 1 1 5BB5F937
-P 9950 5900
+P 7100 5850
 AR Path="/5BB5F937" Ref="#PWR083"  Part="1" 
 AR Path="/5A93FC93/5BB5F937" Ref="#PWR083"  Part="1" 
-F 0 "#PWR083" H 9950 5650 50  0001 C CNN
-F 1 "GND" H 9950 5750 50  0000 C CNN
-F 2 "" H 9950 5900 50  0001 C CNN
-F 3 "" H 9950 5900 50  0001 C CNN
-	1    9950 5900
+F 0 "#PWR083" H 7100 5600 50  0001 C CNN
+F 1 "GND" H 7100 5700 50  0000 C CNN
+F 2 "" H 7100 5850 50  0001 C CNN
+F 3 "" H 7100 5850 50  0001 C CNN
+	1    7100 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR084
 U 1 1 5BB5F9A2
-P 9950 5300
+P 7100 5250
 AR Path="/5BB5F9A2" Ref="#PWR084"  Part="1" 
 AR Path="/5A93FC93/5BB5F9A2" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 9950 5150 50  0001 C CNN
-F 1 "+5V" H 9950 5440 50  0000 C CNN
-F 2 "" H 9950 5300 50  0001 C CNN
-F 3 "" H 9950 5300 50  0001 C CNN
-	1    9950 5300
+F 0 "#PWR084" H 7100 5100 50  0001 C CNN
+F 1 "+5V" H 7100 5390 50  0000 C CNN
+F 2 "" H 7100 5250 50  0001 C CNN
+F 3 "" H 7100 5250 50  0001 C CNN
+	1    7100 5250
 	1    0    0    -1  
 $EndComp
-Text Label 9650 5600 2    60   ~ 0
+Text Label 6800 5550 2    60   ~ 0
 JMPSRC_CLK
-Text Label 10250 5600 0    60   ~ 0
+Text Label 7400 5550 0    60   ~ 0
 ~JMPSRC_CLK
 Text Label 2550 6000 0    60   ~ 0
 BJMPSRC_0
@@ -494,152 +494,22 @@ BJMPSRC_15
 $Comp
 L Custom:74AHC1G04 U?
 U 1 1 5F9095CA
-P 9950 5600
+P 7100 5550
 AR Path="/5F9095CA" Ref="U?"  Part="1" 
 AR Path="/5A93FC93/5F9095CA" Ref="U18"  Part="1" 
-F 0 "U18" H 10050 5850 50  0000 L CNN
-F 1 "74AHC1G04" H 10050 5750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9950 5600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 9950 5600 50  0001 C CNN
-	1    9950 5600
+F 0 "U18" H 7200 5800 50  0000 L CNN
+F 1 "74AHC1G04" H 7200 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7100 5550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 7100 5550 50  0001 C CNN
+	1    7100 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 5900 9950 5800
+	7100 5850 7100 5750
 Wire Wire Line
-	9950 5400 9950 5300
-$Comp
-L power:GND #PWR?
-U 1 1 5FB1C83D
-P 7700 5900
-AR Path="/5FB1C83D" Ref="#PWR?"  Part="1" 
-AR Path="/5A93FC93/5FB1C83D" Ref="#PWR0163"  Part="1" 
-F 0 "#PWR0163" H 7700 5650 50  0001 C CNN
-F 1 "GND" H 7700 5750 50  0000 C CNN
-F 2 "" H 7700 5900 50  0001 C CNN
-F 3 "" H 7700 5900 50  0001 C CNN
-	1    7700 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FB1C843
-P 7700 5200
-AR Path="/5FB1C843" Ref="#PWR?"  Part="1" 
-AR Path="/5A93FC93/5FB1C843" Ref="#PWR0164"  Part="1" 
-F 0 "#PWR0164" H 7700 5050 50  0001 C CNN
-F 1 "+5V" H 7700 5340 50  0000 C CNN
-F 2 "" H 7700 5200 50  0001 C CNN
-F 3 "" H 7700 5200 50  0001 C CNN
-	1    7700 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom:74AHC1G04 U?
-U 1 1 5FB1C84B
-P 7700 5600
-AR Path="/5FB1C84B" Ref="U?"  Part="1" 
-AR Path="/5A93FC93/5FB1C84B" Ref="U39"  Part="1" 
-F 0 "U39" H 7800 5850 50  0000 L CNN
-F 1 "74AHC1G04" H 7800 5750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7700 5600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 7700 5600 50  0001 C CNN
-	1    7700 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7700 5900 7700 5800
-$Comp
-L power:GND #PWR?
-U 1 1 5FB2A8C2
-P 6850 5900
-AR Path="/5FB2A8C2" Ref="#PWR?"  Part="1" 
-AR Path="/5A93FC93/5FB2A8C2" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR0165" H 6850 5650 50  0001 C CNN
-F 1 "GND" H 6850 5750 50  0000 C CNN
-F 2 "" H 6850 5900 50  0001 C CNN
-F 3 "" H 6850 5900 50  0001 C CNN
-	1    6850 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FB2A8C8
-P 6850 5200
-AR Path="/5FB2A8C8" Ref="#PWR?"  Part="1" 
-AR Path="/5A93FC93/5FB2A8C8" Ref="#PWR0166"  Part="1" 
-F 0 "#PWR0166" H 6850 5050 50  0001 C CNN
-F 1 "+5V" H 6850 5340 50  0000 C CNN
-F 2 "" H 6850 5200 50  0001 C CNN
-F 3 "" H 6850 5200 50  0001 C CNN
-	1    6850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom:74AHC1G04 U?
-U 1 1 5FB2A8CE
-P 6850 5600
-AR Path="/5FB2A8CE" Ref="U?"  Part="1" 
-AR Path="/5A93FC93/5FB2A8CE" Ref="U38"  Part="1" 
-F 0 "U38" H 6950 5850 50  0000 L CNN
-F 1 "74AHC1G04" H 6950 5750 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6850 5600 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT1G04.pdf" H 6850 5600 50  0001 C CNN
-	1    6850 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 5900 6850 5800
-Text Label 6550 5600 2    60   ~ 0
+	7100 5350 7100 5250
+Text Label 7600 3450 2    60   ~ 0
 ADDSRC_CLK
-Text Label 8000 5600 0    60   ~ 0
-ADDSRC_DELAYED_CLK
-$Comp
-L Device:C C?
-U 1 1 5FB4378B
-P 6500 5250
-AR Path="/5FB4378B" Ref="C?"  Part="1" 
-AR Path="/5A93FC93/5FB4378B" Ref="C51"  Part="1" 
-F 0 "C51" H 6525 5350 50  0000 L CNN
-F 1 "10nF" H 6525 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6538 5100 50  0001 C CNN
-F 3 "" H 6500 5250 50  0001 C CNN
-	1    6500 5250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 5200 7700 5250
-Wire Wire Line
-	7700 5250 6850 5250
-Wire Wire Line
-	6850 5250 6850 5200
-Connection ~ 7700 5250
-Wire Wire Line
-	7700 5250 7700 5400
-Wire Wire Line
-	6850 5250 6850 5400
-Connection ~ 6850 5250
-Wire Wire Line
-	6850 5250 6650 5250
-Wire Wire Line
-	6350 5250 5950 5250
-Wire Wire Line
-	5950 5250 5950 5900
-$Comp
-L power:GND #PWR?
-U 1 1 5FB666FB
-P 5950 5900
-AR Path="/5FB666FB" Ref="#PWR?"  Part="1" 
-AR Path="/5A93FC93/5FB666FB" Ref="#PWR0167"  Part="1" 
-F 0 "#PWR0167" H 5950 5650 50  0001 C CNN
-F 1 "GND" H 5950 5750 50  0000 C CNN
-F 2 "" H 5950 5900 50  0001 C CNN
-F 3 "" H 5950 5900 50  0001 C CNN
-	1    5950 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 5600 7150 5600
 $Comp
 L Custom:CD74AC161M U19
 U 1 1 5FB86117
@@ -651,8 +521,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 7950 1950 60  0001 C CNN
 	1    8100 1650
 	1    0    0    -1  
 $EndComp
-Text Label 7600 1500 2    60   ~ 0
-ADDSRC_DELAYED_CLK
 Wire Wire Line
 	7600 2000 6600 2000
 Wire Wire Line
@@ -712,8 +580,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 7950 3900 60  0001 C CNN
 	1    8100 3600
 	1    0    0    -1  
 $EndComp
-Text Label 7600 3450 2    60   ~ 0
-ADDSRC_DELAYED_CLK
 Wire Wire Line
 	7600 3950 6600 3950
 Wire Wire Line
@@ -779,8 +645,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 5100 1950 60  0001 C CNN
 	1    5250 1650
 	1    0    0    -1  
 $EndComp
-Text Label 4750 1500 2    60   ~ 0
-ADDSRC_DELAYED_CLK
 Wire Wire Line
 	4750 2000 3750 2000
 Wire Wire Line
@@ -866,8 +730,6 @@ Connection ~ 3750 2000
 Wire Wire Line
 	3750 4000 3750 3950
 Connection ~ 3750 3950
-Text Label 4750 3450 2    60   ~ 0
-ADDSRC_DELAYED_CLK
 $Comp
 L Device:C C?
 U 1 1 5FC67621
@@ -907,8 +769,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74ac161.pdf" H 2250 1950 60  0001 C CNN
 	1    2400 1650
 	1    0    0    -1  
 $EndComp
-Text Label 1900 1500 2    60   ~ 0
-ADDSRC_DELAYED_CLK
 Wire Wire Line
 	1900 2000 900  2000
 Wire Wire Line
@@ -994,8 +854,6 @@ Connection ~ 900  2000
 Wire Wire Line
 	900  4000 900  3950
 Connection ~ 900  3950
-Text Label 1900 3450 2    60   ~ 0
-ADDSRC_DELAYED_CLK
 Wire Wire Line
 	2500 1000 2500 950 
 Wire Wire Line
@@ -1103,6 +961,16 @@ F 3 "" H 5250 2850 50  0001 C CNN
 	1    5250 2850
 	1    0    0    -1  
 $EndComp
+Text Label 7600 1500 2    60   ~ 0
+ADDSRC_CLK
+Text Label 4750 1500 2    60   ~ 0
+ADDSRC_CLK
+Text Label 1900 1500 2    60   ~ 0
+ADDSRC_CLK
+Text Label 1900 3450 2    60   ~ 0
+ADDSRC_CLK
+Text Label 4750 3450 2    60   ~ 0
+ADDSRC_CLK
 Wire Bus Line
 	5450 6100 5450 7300
 Wire Bus Line

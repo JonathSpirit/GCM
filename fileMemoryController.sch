@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 10
 Title "GCM"
-Date "2020-11-23"
-Rev "V5.0"
+Date "2021-02-16"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -224,22 +224,6 @@ F 3 "" H 3450 4250 50  0001 C CNN
 	1    3450 4250
 	0    -1   -1   0   
 $EndComp
-Text Label 3300 4600 2    60   ~ 0
-BWRITE1_0
-Text Label 3300 4700 2    60   ~ 0
-BWRITE1_1
-Text Label 3300 4800 2    60   ~ 0
-BWRITE1_2
-Text Label 3300 4900 2    60   ~ 0
-BWRITE1_3
-Text Label 3300 5000 2    60   ~ 0
-BWRITE1_4
-Text Label 3300 5100 2    60   ~ 0
-BWRITE1_5
-Text Label 3300 5200 2    60   ~ 0
-BWRITE1_6
-Text Label 3300 5300 2    60   ~ 0
-BWRITE1_7
 Wire Wire Line
 	3800 6000 3800 5950
 Connection ~ 3800 5950
@@ -715,7 +699,7 @@ Text Label 1650 7300 0    60   ~ 0
 MEM2DATA_6
 Text Label 1650 7400 0    60   ~ 0
 MEM2DATA_7
-Text Label 1650 3400 0    60   ~ 0
+Text Label 1650 2400 0    60   ~ 0
 CLK_MODULE_SRCSET
 Text Label 10250 1200 2    60   ~ 0
 MEM1_~CE
@@ -757,18 +741,12 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf" H 3800 
 	1    3800 5100
 	1    0    0    -1  
 $EndComp
-Text HLabel 1600 3200 0    60   Input ~ 0
-BWRITE2_[0..7]
-Text HLabel 1600 3100 0    60   Input ~ 0
+Text HLabel 1600 2100 0    60   Input ~ 0
 SRCADD_[0..23]
-Text Label 1650 3100 0    60   ~ 0
+Text Label 1650 2100 0    60   ~ 0
 SRCADD_[0..23]
-Text Label 1650 3200 0    60   ~ 0
-BWRITE2_[0..7]
 Wire Bus Line
-	1600 3100 1650 3100
-Wire Bus Line
-	1650 3200 1600 3200
+	1600 2100 1650 2100
 Text Label 3750 850  2    60   ~ 0
 SRCADD_[0..23]
 Wire Bus Line
@@ -857,10 +835,10 @@ Text HLabel 10100 6350 2    60   Output ~ 0
 SRC_SWITCH_SIGNAL
 Wire Wire Line
 	10050 6350 10100 6350
-Text HLabel 1600 3400 0    60   Input ~ 0
+Text HLabel 1600 2400 0    60   Input ~ 0
 CLK_MODULE_SRCSET
 Wire Wire Line
-	1600 3400 1650 3400
+	1600 2400 1650 2400
 Wire Wire Line
 	7850 3900 7150 3900
 NoConn ~ 8850 2600
@@ -1004,18 +982,18 @@ Text Label 4350 2700 2    60   ~ 0
 BWRITE1_4
 Text Label 4350 2800 2    60   ~ 0
 BWRITE1_5
-Text Label 1650 3700 0    60   ~ 0
+Text Label 1650 2700 0    60   ~ 0
 CLK_MODULE_MEMUSER
-Text HLabel 1600 3700 0    60   Input ~ 0
+Text HLabel 1600 2700 0    60   Input ~ 0
 CLK_MODULE_MEMUSER
 Wire Wire Line
-	1600 3700 1650 3700
-Text Label 1650 3600 0    60   ~ 0
+	1600 2700 1650 2700
+Text Label 1650 2600 0    60   ~ 0
 ~RESET
-Text HLabel 1600 3600 0    60   Input ~ 0
+Text HLabel 1600 2600 0    60   Input ~ 0
 ~RESET
 Wire Wire Line
-	1600 3600 1650 3600
+	1600 2600 1650 2600
 Text Label 1550 1450 2    60   ~ 0
 ~RESET
 $Comp
@@ -1035,12 +1013,12 @@ Text Label 5350 2400 0    60   ~ 0
 USER_~WE
 Text Label 5350 2500 0    60   ~ 0
 USER_~OE
-Text Label 1650 3800 0    60   ~ 0
+Text Label 1650 2800 0    60   ~ 0
 ~CS_MODULE_MEMUSER
-Text HLabel 1600 3800 0    60   Input ~ 0
+Text HLabel 1600 2800 0    60   Input ~ 0
 ~CS_MODULE_MEMUSER
 Wire Wire Line
-	1600 3800 1650 3800
+	1600 2800 1650 2800
 Text Label 7750 6000 2    60   ~ 0
 USER_~OE
 $Comp
@@ -1287,6 +1265,76 @@ Wire Wire Line
 Wire Wire Line
 	7150 3900 7150 4300
 Connection ~ 7150 3900
+Text HLabel 1400 4100 0    60   Input ~ 0
+BWRITE2_[0..7]
+Wire Bus Line
+	1500 4100 1400 4100
+Wire Wire Line
+	1650 3900 1600 3900
+Wire Wire Line
+	1650 3800 1600 3800
+Wire Wire Line
+	1650 3700 1600 3700
+Wire Wire Line
+	1650 3600 1600 3600
+Wire Wire Line
+	1650 3500 1600 3500
+Wire Wire Line
+	1650 3400 1600 3400
+Wire Wire Line
+	1650 3300 1600 3300
+Wire Wire Line
+	1650 3200 1600 3200
+Entry Wire Line
+	1600 3900 1500 4000
+Entry Wire Line
+	1600 3800 1500 3900
+Entry Wire Line
+	1600 3700 1500 3800
+Entry Wire Line
+	1600 3600 1500 3700
+Entry Wire Line
+	1600 3500 1500 3600
+Entry Wire Line
+	1600 3400 1500 3500
+Entry Wire Line
+	1600 3300 1500 3400
+Entry Wire Line
+	1600 3200 1500 3300
+Text Label 1500 4100 0    60   ~ 0
+BWRITE2_[0..7]
+Text Label 1650 3900 0    60   ~ 0
+BWRITE2_0
+Text Label 1650 3800 0    60   ~ 0
+BWRITE2_1
+Text Label 1650 3700 0    60   ~ 0
+BWRITE2_2
+Text Label 1650 3600 0    60   ~ 0
+BWRITE2_3
+Text Label 1650 3500 0    60   ~ 0
+BWRITE2_4
+Text Label 1650 3400 0    60   ~ 0
+BWRITE2_5
+Text Label 1650 3300 0    60   ~ 0
+BWRITE2_6
+Text Label 1650 3200 0    60   ~ 0
+BWRITE2_7
+Text Label 3300 4600 2    60   ~ 0
+BWRITE2_0
+Text Label 3300 4700 2    60   ~ 0
+BWRITE2_1
+Text Label 3300 4800 2    60   ~ 0
+BWRITE2_2
+Text Label 3300 4900 2    60   ~ 0
+BWRITE2_3
+Text Label 3300 5000 2    60   ~ 0
+BWRITE2_4
+Text Label 3300 5100 2    60   ~ 0
+BWRITE2_5
+Text Label 3300 5200 2    60   ~ 0
+BWRITE2_6
+Text Label 3300 5300 2    60   ~ 0
+BWRITE2_7
 Wire Bus Line
 	10000 4050 10000 4850
 Wire Bus Line
@@ -1297,4 +1345,6 @@ Wire Bus Line
 	1500 5650 1500 6450
 Wire Bus Line
 	1500 6800 1500 7600
+Wire Bus Line
+	1500 3300 1500 4100
 $EndSCHEMATC

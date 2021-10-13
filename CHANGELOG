@@ -1,6 +1,29 @@
-GCM V4.0 :
-    - Intial release
+GCM V5.1 :
+- DOCUMENTS
+    - Flipped ordering of version in CHANGELOG file
+    - Updated the BOM and fix wrong J9 ref #5 #3
+    - Small revision on the block diagram
+
+- SCHEMATICS
+    - Set version to 5.1
+    - Fix conflict between U40 and U12, the BWRITE1 bus have been replaced by BWRITE2 on U12 #14
+    - Removed the delay on ADDSCR_CLK #9
+    - Fix a symbol issue where pins was flipped and not ordered causing a clock problem #7 
+
+- PCB
+    - Set version to 5.1
+    - Cleaning
+    - All capacitor is now in 0805 size
     
+    - For U22, U23, U24, the decoupling capacitor have been repositioned #13
+    - J9 is now repositioned next to J12 with a step of 2.54mm #12
+    - Back a little the MM1 connectors #8
+    - Footprint of J7 have been correctly replaced #6
+    - J12 have been correctly replaced with a male connector #4
+    
+    - Removed all decoupling capactior for the not used 12V power #11
+    - More power decoupling next to the nano-fit power connector #10
+
 GCM V5.0 :
 - GLOBAL
     - Switching "CERN-OHL v1.2" license to "CERN-OHLw v2 or later"
@@ -69,3 +92,6 @@ GCM V5.0 :
         User can now control CE,WE,OE pins of the not selected memory source
         Applying MM1 standard, (3.3V)
         Renaming/Cleaning
+
+GCM V4.0 :
+    - Intial release

@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 10
 Title "GCM"
-Date "2020-11-23"
-Rev "V5.0"
+Date "2021-02-16"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -164,6 +164,7 @@ U 1 1 5FB1D330
 P 4850 1650
 AR Path="/5B3313A4/5FB1D330" Ref="U?"  Part="1" 
 AR Path="/5B3313A4/5FB03E55/5FB1D330" Ref="U33"  Part="1" 
+AR Path="/5FB1D330" Ref="U33"  Part="1" 
 F 0 "U33" H 5000 2250 60  0000 C CNN
 F 1 "SN74LV393A" H 5200 2150 60  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 1950 60  0001 C CNN
@@ -177,6 +178,7 @@ U 1 1 5FB1D336
 P 4850 4000
 AR Path="/5B3313A4/5FB1D336" Ref="U?"  Part="1" 
 AR Path="/5B3313A4/5FB03E55/5FB1D336" Ref="U34"  Part="1" 
+AR Path="/5FB1D336" Ref="U34"  Part="1" 
 F 0 "U34" H 5000 4600 60  0000 C CNN
 F 1 "SN74LV393A" H 5200 4500 60  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 4300 60  0001 C CNN

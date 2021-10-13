@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 10
 Title "GCM"
-Date "2020-11-23"
-Rev "V5.0"
+Date "2021-02-16"
+Rev "V5.1"
 Comp "Guillaume Guillet"
-Comment1 "Copyright Guillaume Guillet 2020"
+Comment1 "Copyright Guillaume Guillet 2021"
 Comment2 "Licensed under CERN-OHL-W v2 or later"
 Comment3 ""
 Comment4 ""
@@ -91,14 +91,14 @@ $EndComp
 $Comp
 L power:+5V #PWR059
 U 1 1 5B173077
-P 6100 6850
+P 6300 6850
 AR Path="/5B173077" Ref="#PWR059"  Part="1" 
 AR Path="/5B31C462/5B173077" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 6100 6700 50  0001 C CNN
-F 1 "+5V" H 6100 6990 50  0000 C CNN
-F 2 "" H 6100 6850 50  0001 C CNN
-F 3 "" H 6100 6850 50  0001 C CNN
-	1    6100 6850
+F 0 "#PWR059" H 6300 6700 50  0001 C CNN
+F 1 "+5V" H 6300 6990 50  0000 C CNN
+F 2 "" H 6300 6850 50  0001 C CNN
+F 3 "" H 6300 6850 50  0001 C CNN
+	1    6300 6850
 	1    0    0    -1  
 $EndComp
 Text Label 8250 6350 2    60   ~ 0
@@ -276,40 +276,40 @@ NUMBER_[0..7]
 $Comp
 L power:+3V3 #PWR060
 U 1 1 5B0EADF6
-P 5850 6750
+P 5750 6750
 AR Path="/5B0EADF6" Ref="#PWR060"  Part="1" 
 AR Path="/5B31C462/5B0EADF6" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 5850 6600 50  0001 C CNN
-F 1 "+3.3V" H 5850 6890 50  0000 C CNN
-F 2 "" H 5850 6750 50  0001 C CNN
-F 3 "" H 5850 6750 50  0001 C CNN
-	1    5850 6750
+F 0 "#PWR060" H 5750 6600 50  0001 C CNN
+F 1 "+3.3V" H 5750 6890 50  0000 C CNN
+F 2 "" H 5750 6750 50  0001 C CNN
+F 3 "" H 5750 6750 50  0001 C CNN
+	1    5750 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C9
 U 1 1 5B0EB326
-P 5850 7200
+P 5750 7200
 AR Path="/5B0EB326" Ref="C9"  Part="1" 
 AR Path="/5B31C462/5B0EB326" Ref="C9"  Part="1" 
-F 0 "C9" H 5875 7300 50  0000 L CNN
-F 1 "10nF" H 5875 7100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 7050 50  0001 C CNN
-F 3 "" H 5850 7200 50  0001 C CNN
-	1    5850 7200
+F 0 "C9" H 5775 7300 50  0000 L CNN
+F 1 "100nF" H 5775 7100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5788 7050 50  0001 C CNN
+F 3 "" H 5750 7200 50  0001 C CNN
+	1    5750 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C10
 U 1 1 5B0EB41C
-P 6100 7200
+P 6300 7200
 AR Path="/5B0EB41C" Ref="C10"  Part="1" 
 AR Path="/5B31C462/5B0EB41C" Ref="C10"  Part="1" 
-F 0 "C10" H 6125 7300 50  0000 L CNN
-F 1 "10nF" H 6125 7100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6138 7050 50  0001 C CNN
-F 3 "" H 6100 7200 50  0001 C CNN
-	1    6100 7200
+F 0 "C10" H 6325 7300 50  0000 L CNN
+F 1 "100nF" H 6325 7100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 7050 50  0001 C CNN
+F 3 "" H 6300 7200 50  0001 C CNN
+	1    6300 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -323,23 +323,9 @@ BPCS_[0..5]
 Wire Wire Line
 	5250 7000 5600 7000
 Wire Wire Line
-	6100 6850 6100 6900
-Wire Wire Line
-	5600 7400 5850 7400
-Wire Wire Line
-	5850 7400 5850 7350
+	6300 6850 6300 6900
 Connection ~ 5600 7400
-Wire Wire Line
-	6100 7400 6100 7350
-Connection ~ 5850 7400
-Wire Wire Line
-	5850 6750 5850 6800
-Wire Wire Line
-	5250 6900 6100 6900
-Connection ~ 6100 6900
-Wire Wire Line
-	5250 6800 5850 6800
-Connection ~ 5850 6800
+Connection ~ 6300 6900
 Text Label 3050 1250 2    60   ~ 0
 BREAD1_0
 Text Label 3050 1350 2    60   ~ 0
@@ -540,11 +526,7 @@ NUMBER_7
 Wire Wire Line
 	5600 7400 5600 7450
 Wire Wire Line
-	5850 7400 6100 7400
-Wire Wire Line
-	6100 6900 6100 7050
-Wire Wire Line
-	5850 6800 5850 7050
+	6300 6900 6300 7000
 Wire Wire Line
 	2300 3600 2300 3650
 Wire Wire Line
@@ -1117,7 +1099,7 @@ AR Path="/5D2CD391" Ref="J?"  Part="1"
 AR Path="/5B31C462/5D2CD391" Ref="J9"  Part="1" 
 F 0 "J9" H 6930 1292 50  0000 L CNN
 F 1 "Conn_01x02" H 6930 1201 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6850 1300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6850 1300 50  0001 C CNN
 F 3 "~" H 6850 1300 50  0001 C CNN
 	1    6850 1300
 	1    0    0    -1  
@@ -1222,6 +1204,71 @@ F 3 "~" H 7750 3550 50  0001 C CNN
 	1    7750 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 602EDA53
+P 6050 7200
+AR Path="/602EDA53" Ref="C?"  Part="1" 
+AR Path="/5B31C462/602EDA53" Ref="C51"  Part="1" 
+F 0 "C51" H 6075 7300 50  0000 L CNN
+F 1 "1uF" H 6075 7100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 7050 50  0001 C CNN
+F 3 "" H 6050 7200 50  0001 C CNN
+	1    6050 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6750 5750 6800
+Wire Wire Line
+	5250 6800 5750 6800
+Connection ~ 5750 6800
+Wire Wire Line
+	5750 6800 5750 7000
+$Comp
+L Device:C C?
+U 1 1 6033559A
+P 6600 7200
+AR Path="/6033559A" Ref="C?"  Part="1" 
+AR Path="/5B31C462/6033559A" Ref="C57"  Part="1" 
+F 0 "C57" H 6625 7300 50  0000 L CNN
+F 1 "1uF" H 6625 7100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6638 7050 50  0001 C CNN
+F 3 "" H 6600 7200 50  0001 C CNN
+	1    6600 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 7400 6600 7350
+Wire Wire Line
+	6300 7350 6300 7400
+Connection ~ 6300 7400
+Wire Wire Line
+	6300 7400 6600 7400
+Wire Wire Line
+	6050 7400 6050 7350
+Wire Wire Line
+	6050 7400 6300 7400
+Connection ~ 6050 7400
+Wire Wire Line
+	5600 7400 5750 7400
+Wire Wire Line
+	5750 7400 5750 7350
+Connection ~ 5750 7400
+Wire Wire Line
+	5750 7400 6050 7400
+Wire Wire Line
+	5250 6900 6300 6900
+Wire Wire Line
+	6050 7050 6050 7000
+Wire Wire Line
+	6050 7000 5750 7000
+Connection ~ 5750 7000
+Wire Wire Line
+	5750 7000 5750 7050
+Wire Wire Line
+	6600 7050 6600 7000
+Wire Wire Line
+	6600 7000 6300 7000
 Wire Bus Line
 	10050 4950 10050 5550
 Wire Bus Line
@@ -1238,4 +1285,7 @@ Wire Bus Line
 	1600 2500 1600 3300
 Wire Bus Line
 	8250 4000 8250 6350
+Connection ~ 6300 7000
+Wire Wire Line
+	6300 7000 6300 7050
 $EndSCHEMATC

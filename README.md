@@ -1,6 +1,6 @@
 # GCM - GCardMother
 
-Copyright (C) 2020 Guillaume Guillet\
+Copyright (C) 2021 Guillaume Guillet\
 Licensed under CERN-OHL-W v2 or later
 
 <table border="0px">
@@ -29,20 +29,18 @@ G_CardMother is a homemade without any microcontroller motherboard for 8bits pro
 <img src="images/GCM.JPG" alt="GCM_image" width="400"/> <img src="images/GCM_3D.png" alt="GCM_3D_image" width="400"/>
 <img src="images/GCM_3D_TOP.png" alt="GCM_3D_TOP_image" width="400"/> <img src="images/GCM_3D_BOT.png" alt="GCM_3D_BOT_image" width="400"/>
 
-## Status
+## Stats
 
-Version :
-> GCM_V5.0
+![version](https://img.shields.io/badge/version-GCM_5.1-blue)
 
-Status :
-> Testing ...
+![status](https://img.shields.io/badge/status-not_tested,_should_be_stable-yellow)
 
-Known issues :
-> 4 light impact bugs, 1 high impact bug, (Please to avoid any problems wait the V5.1 release)
+![bug](https://img.shields.io/github/issues/JonathSpirit/GCM/bug)\
+![high_impact](https://img.shields.io/github/issues/JonathSpirit/GCM/high%20impact)\
+![medium_impact](https://img.shields.io/github/issues/JonathSpirit/GCM/medium%20impact)\
+![light_impact](https://img.shields.io/github/issues/JonathSpirit/GCM/light%20impact)
 
 ## Block diagram
-
-[Block diagram (.pdf)](documents/blockDiagram/GCM_blockDiagram.pdf)
 
 <img src="images/diagram.png" alt="Image of diagram" width="600"/>
 
@@ -50,17 +48,16 @@ Known issues :
 
 - Follow the [MOM1_SPS1](https://github.com/JonathSpirit/GComputer_standard) standard.
 
-- A controllable frequency of 50Mhz divisible by multiples of two up to a division of 65536.
+- A max frequency of 50Mhz divisible by multiples of two (up to a division of 65536).
+  For the processor and a seperated line for peripherals.
 
-- The same separate controllable frequency divisible by multiples of two for peripherals.
-
-- 4 peripherals slot (that follow standard [PP1](https://github.com/JonathSpirit/GComputer_standard)).
+- 4 [PP1](https://github.com/JonathSpirit/GComputer_standard) peripherals slot.
 
 - 2 [MM1](https://github.com/JonathSpirit/GComputer_standard) memory slot with address extension.
 
-- Readable code source switching from the 2 memory slot.
+- Code execution from the memory slot 1 and switchable with the memory slot 2.
 
-- Redirection of the writing buses.
+- Redirection of the writing buses (can be used as buffer).
 
 - Accessible debug pins.
 
@@ -69,16 +66,17 @@ Known issues :
 This motherboard, follow the [MOM1_SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 ## Compatibility
-Compatible with all processor following the [SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
+Should be compatible with all processor following the [SPS1](https://github.com/JonathSpirit/GComputer_standard) standard
 
 | Processor     | Compatibility |
 | ------------- | ------------- |
-| [GP8B_V4.x](https://github.com/JonathSpirit/GP8B/tree/V4.0)  | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+)  |
-| [GP8B_V5.x](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![#00ff00](https://placehold.it/15/00ff00/000000?text=+)  |
+| [GP8B_V4.x](https://github.com/JonathSpirit/GP8B/tree/V4.0)  | ![none](https://img.shields.io/badge/-none-red)  |
+| [GP8B_V5.0](https://github.com/JonathSpirit/GP8B/tree/V5.0)  | ![none](https://img.shields.io/badge/-none-red)  |
+| [GP8B_V5.1+](https://github.com/JonathSpirit/GP8B/tree/V5.1)  | ![fully](https://img.shields.io/badge/-fully-green)  |
 
-![#00ff00](https://placehold.it/15/00ff00/000000?text=+) `Fully compatible`\
-![#ffff00](https://placehold.it/15/ffff00/000000?text=+) `Semi compatible`\
-![#ff0000](https://placehold.it/15/ff0000/000000?text=+) `No compatible`
+![compatibility_fully](https://img.shields.io/badge/compatibility-fully-green)
+![compatibility_partially](https://img.shields.io/badge/compatibility-partially-yellow)
+![compatibility_none](https://img.shields.io/badge/compatibility-none-red)
 
 ## Documents
 [Block diagram (.pdf)](documents/blockDiagram/GCM_blockDiagram.pdf)
