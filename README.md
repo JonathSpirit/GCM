@@ -21,7 +21,7 @@ for applicable conditions.
 </tr>
 </table>
 
-Made with [Kicad](https://kicad-pcb.org/)
+Made with [Kicad](https://kicad.org/)
 
 ## Description
 G_CardMother is a homemade without any microcontroller motherboard for 8bits processor compatible with the [MOM1_SPS1 standard](https://github.com/JonathSpirit/GComputer_standard) like [GP8B](https://github.com/JonathSpirit/GP8B)
